@@ -2,6 +2,8 @@ baseURL = "https://rpetchler.github.io/galant-schemata/"
 languageCode = "en-us"
 title = "Galant Schemata"
 
+sectionPagesMenu = "main"
+
 [module]
 [[module.mounts]]
   source = "site/assets"
