@@ -15,8 +15,9 @@
             </div>
           </div>
           <div class="col-md-8">
-            <a href="{{ .Permalink }}">
-              Thumbnail
+            <a href="{{ .RelPermalink }}">
+              {{ $image := .Resources.GetMatch "thumbnail.svg" }}
+              <img src="{{ $image.RelPermalink }}" class="img-fluid rounded-start" alt="{{ .Title }}">
             </a>
           </div>
         </div>
