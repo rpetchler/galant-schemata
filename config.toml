@@ -1,0 +1,12 @@
+baseURL = "https://rpetchler.github.io/galant-schemata/"
+languageCode = "en-us"
+title = "Galant Schemata"
+
+[module]
+[[module.mounts]]
+  source = "site/layouts"
+  target = "layouts"
+
+[params]
+description = "Galant schemata, scores, and data analysis."
+authors = "Ross Petchler"
