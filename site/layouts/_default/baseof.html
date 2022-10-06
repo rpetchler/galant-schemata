@@ -12,6 +12,17 @@
     <link rel="canonical" href="{{ .Permalink }}">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    {{- $sassOptions := dict "targetPath" "/assets/css/main.css" "outputStyle" "expanded" "precision" 6 -}}
+    {{- $postcssOptions := dict "use" "autoprefixer" "noMap" true -}}
+
+    {{ if eq hugo.Environment "production" -}}
+      {{- $sassOptions = merge $sassOptions (dict "outputStyle" "compressed") -}}
+    {{- end -}}
+
+    {{- $style := resources.Get "scss/main.scss" | toCSS $sassOptions | postCSS $postcssOptions }}
+
+    <link href="{{ $style.Permalink | relURL }}" rel="stylesheet">
   </head>
   <body>
 

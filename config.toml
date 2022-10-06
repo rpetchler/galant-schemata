@@ -4,6 +4,12 @@ title = "Galant Schemata"
 
 [module]
 [[module.mounts]]
+  source = "site/assets"
+  target = "assets"
+[[module.mounts]]
+  source = "site/content"
+  target = "content"
+[[module.mounts]]
   source = "site/layouts"
   target = "layouts"
 

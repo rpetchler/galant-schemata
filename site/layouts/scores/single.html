@@ -1,0 +1,51 @@
+{{ define "main" }}
+<div class="container">
+  <main>
+    <div class="row">
+
+      <div class="col-md-2">
+        <div class="position-fixed">
+          <div class="p-2 my-2">
+            <h5>{{ .Title }}</h5>
+            <h6 class="text-muted">{{ .Params.composer }}</h6>
+            <div class="hstack gap-2">
+              <h6 class="text-muted">Op.{{ .Params.opus }} No.{{ .Params.number }}</h6>
+              <div class="vr"></div>
+              <h6 class="text-muted">{{ .Params.id }}</h6>
+            </div>
+          </div>
+
+          <div class="p-2">
+            <h6>Movements</h6>
+            <ol class="list-unstyled">
+              {{ range $index, $movement := .Params.movements }}
+                <li>
+                  <a href="#{{ add 1 $index }}-{{ $movement | urlize }}">{{ $movement }}</a>
+                </li>
+              {{ end }}
+            </ol>
+          </div>
+
+          <div class="p-2">
+            <h6>Annotations</h6>
+            <form>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="showSchemata" checked>
+                <label class="form-check-label" for="showSchemata">Show schemata</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="showScaleDegrees" checked>
+                <label class="form-check-label" for="showScaleDegrees">Show scale degrees</label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-10">
+      </div>
+
+    </div>
+  </main>
+</div>
+{{ end }}
