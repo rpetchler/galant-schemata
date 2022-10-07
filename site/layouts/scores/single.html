@@ -43,6 +43,9 @@
       </div>
 
       <div class="col-md-10">
+        {{ with .Resources.GetMatch "score.svg" }}
+          {{ .Content | safeHTML }}
+        {{ end }}
       </div>
 
     </div>
