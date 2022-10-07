@@ -51,4 +51,13 @@
     </div>
   </main>
 </div>
+
+{{- $js := resources.Get "js/main.js" -}}
+
+{{- if eq hugo.Environment "production" -}}
+  {{- $js = $js | resources.Minify -}}
+{{- end }}
+
+<script src="{{ $js.Permalink | relURL }}"></script>
+
 {{ end }}
