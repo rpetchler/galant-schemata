@@ -18,16 +18,8 @@ mso = ^ "➎"
 mla = ^ "➏"
 mti = ^ "➐"
 
-imdo = _ "➊"
-imre = _ "➋"
-immi = _ "➌"
-imfa = _ "➍"
-imso = _ "➎"
-imla = _ "➏"
-imti = _ "➐"
-
-mties = ^\markup \center-align "♭➐"
-mtina = ^\markup \center-align "♮➐"
+mties = ^\markup "♭➐"
+mtina = ^\markup "♮➐"
 
 % Sans-Serif, Bass (White-Circled Numbers)
 
@@ -39,15 +31,7 @@ bso = _ "➄"
 bla = _ "➅"
 bti = _ "➆"
 
-ibdo = ^ "➀"
-ibre = ^ "➁"
-ibmi = ^ "➂"
-ibfa = ^ "➃"
-ibso = ^ "➄"
-ibla = ^ "➅"
-ibti = ^ "➆"
-
-bfais  = _\markup \center-align "♯➃"
+bfais  = _\markup "♯➃"
 
 % Analysis Brackets
 
@@ -58,7 +42,6 @@ bfais  = _\markup \center-align "♯➃"
     \override HorizontalBracket.direction = #UP
     \override HorizontalBracket.output-attributes = #'(( class . schema ))
     \override HorizontalBracket.outside-staff-priority = #460 % TextScript used for scale degrees has priority 450
-    \override HorizontalBracket.padding = 3.0
     \override HorizontalBracketText.output-attributes = #'(( class . schema ))
   }
 }
@@ -86,6 +69,7 @@ passoIndietro = -\tweak HorizontalBracketText.text "Passo Indietro" \startGroup
 
 % Other Figures
 
-fallingThirds = -\tweak HorizontalBracketText.text "Falling Thirds" \startGroup
-fauxbourdon   = -\tweak HorizontalBracketText.text "Fauxbourdon"    \startGroup
-triadicAscent = -\tweak HorizontalBracketText.text "Triadic Ascent" \startGroup
+fallingThirds  = -\tweak HorizontalBracketText.text "Falling Thirds"  \startGroup
+fauxbourdon    = -\tweak HorizontalBracketText.text "Fauxbourdon"     \startGroup
+triadicAscent  = -\tweak HorizontalBracketText.text "Triadic Ascent"  \startGroup
+triadicDescent = -\tweak HorizontalBracketText.text "Triadic Descent" \startGroup
