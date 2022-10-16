@@ -2,7 +2,8 @@ all: scores thumbnails
 
 scores: \
 	site/content/scores/w-a1/score.svg \
-	site/content/scores/w-a2/score.svg
+	site/content/scores/w-a2/score.svg \
+	site/content/scores/w-a5/score.svg
 
 thumbnails: \
 	site/content/scores/w-a1/thumbnail.svg \
