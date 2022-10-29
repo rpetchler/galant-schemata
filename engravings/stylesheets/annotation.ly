@@ -18,8 +18,8 @@ mso = ^ "➎"
 mla = ^ "➏"
 mti = ^ "➐"
 
-mties = ^\markup "♭➐"
-mtina = ^\markup "♮➐"
+mties = ^\markup \concat { \raise #0.5 \tiny \flat \hspace #0.2 \normalsize "➐" }
+mtina = ^\markup \concat { \tiny \natural \hspace #0.2 \vcenter \normalsize "➐" }
 
 % Sans-Serif, Bass (White-Circled Numbers)
 
@@ -31,7 +31,7 @@ bso = _ "➄"
 bla = _ "➅"
 bti = _ "➆"
 
-bfais  = _\markup "♯➃"
+bfais  = _\markup \concat { \raise #0.6 \tiny \sharp \hspace #0.2 \normalsize "➃" }
 
 % Analysis Brackets
 

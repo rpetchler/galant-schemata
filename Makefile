@@ -16,7 +16,7 @@ thumbnails: \
 
 .PHONY: all scores thumbnail
 
-site/content/scores/%/score.svg: $(filter-out engravings/scores/%/thumbnail.ly,engravings/scores/%/*.ly) engravings/stylesheets/score.ly engravings/stylesheets/typography.ly
+site/content/scores/%/score.svg: $(filter-out engravings/scores/%/thumbnail.ly,engravings/scores/%/*.ly) engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly
 	lilypond \
 		--svg \
 		--output $(basename $@) \
