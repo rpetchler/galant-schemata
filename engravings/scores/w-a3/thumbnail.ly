@@ -9,7 +9,7 @@
     \new Staff \relative d'' {
       \clef "treble" \time 4/4 \key g \major
       \partial 4 d4 |
-      \grace { c16 } b8 a16 g g4 ~ \p g16 a b c d e fis g
+      \grace { c16 } b8 a16 g g4 ~ g16 \p a b c d e fis g
       fis2 ( e4 \trill ) r8 e \f
     }
     \new Staff \relative g {

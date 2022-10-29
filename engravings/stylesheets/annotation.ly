@@ -64,12 +64,14 @@ solfami    = -\tweak HorizontalBracketText.text "Sol-Fa-Mi"  \startGroup
 comma         = -\tweak HorizontalBracketText.text "Comma"          \startGroup
 converging    = -\tweak HorizontalBracketText.text "Converging"     \startGroup
 cudworth      = -\tweak HorizontalBracketText.text "Cudworth"       \startGroup
+grandCadence  = -\tweak HorizontalBracketText.text "Grand Cadence"  \startGroup
 halfcadence   = -\tweak HorizontalBracketText.text "Half Cadence"   \startGroup
 passoIndietro = -\tweak HorizontalBracketText.text "Passo Indietro" \startGroup
 
 % Other Figures
 
-fallingThirds  = -\tweak HorizontalBracketText.text "Falling Thirds"  \startGroup
-fauxbourdon    = -\tweak HorizontalBracketText.text "Fauxbourdon"     \startGroup
-triadicAscent  = -\tweak HorizontalBracketText.text "Triadic Ascent"  \startGroup
-triadicDescent = -\tweak HorizontalBracketText.text "Triadic Descent" \startGroup
+fallingThirds      = -\tweak HorizontalBracketText.text "Falling Thirds"      \startGroup
+fauxbourdon        = -\tweak HorizontalBracketText.text "Fauxbourdon"         \startGroup
+triadicAscent      = -\tweak HorizontalBracketText.text "Triadic Ascent"      \startGroup
+triadicDescent     = -\tweak HorizontalBracketText.text "Triadic Descent"     \startGroup
+ascendingHexachord = -\tweak HorizontalBracketText.text "Ascending Hexachord" \startGroup
