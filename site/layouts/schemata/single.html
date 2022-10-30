@@ -2,6 +2,12 @@
 <div class="container narrow py-3">
   <main>
     <h1>{{ .Title }}</h1>
+
+    <div class="d-flex justify-content-center">
+      {{ $image := .Resources.GetMatch "diagram.svg" }}
+      <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="user-select-none"></img>
+    </div>
+
     {{ .Content }}
   </main>
 </div>

@@ -2,6 +2,8 @@
 title = "Prinner"
 +++
 
+## Examples
+
 The Prinner as a riposte to a Romanesca with a stepwise bass. Arguably the
 first measure of the Prinner constitutes the third measure of the Romanesca and
 thus the schemata overlap.

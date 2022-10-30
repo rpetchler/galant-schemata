@@ -1,4 +1,7 @@
-all: schemata scores thumbnails
+all: diagrams schemata scores thumbnails
+
+diagrams: \
+	site/content/schemata/prinner/diagram.svg
 
 schemata: \
 	site/content/schemata/prinner/w-a2-2-42.svg \
@@ -19,7 +22,10 @@ thumbnails: \
 	site/content/scores/w-a5/thumbnail.svg \
 	site/content/scores/w-a6/thumbnail.svg
 
-.PHONY: all schemata scores thumbnail
+.PHONY: all diagrams schemata scores thumbnail
+
+site/content/schemata/%/diagram.svg: src/schemata/%.py
+	python $< $@
 
 site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/thumbnail.ly engravings/stylesheets/score.ly
 	lilypond \

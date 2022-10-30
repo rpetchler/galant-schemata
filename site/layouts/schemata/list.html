@@ -1,19 +1,19 @@
 {{ define "main" }}
 <div class="container narrow py-3">
   <main>
-    {{ range .Pages }}
-      <div class="card mb-3">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <div class="card-body">
-              <h5 class="card-title">{{ .Title }}</h5>
-            </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      {{ range .Pages }}
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
           </div>
-          <div class="col-md-8">
-          </div>
+          <a href="{{ .RelPermalink }}">
+            {{ $image := .Resources.GetMatch "diagram.svg" }}
+            <img src="{{ $image.RelPermalink }}" class="card-img-bottom img-fluid user-select-none" alt="{{ .Title }}">
+          </a>
         </div>
-      </div>
-    {{ end }}
+      {{ end }}
+    </div>
   </main>
 </div>
 {{ end }}
