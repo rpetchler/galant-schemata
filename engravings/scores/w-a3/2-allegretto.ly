@@ -54,8 +54,8 @@
         }
         \repeat volta 2 { \barNumberCheck #33
           \mark "Var. 2"
-          <b d,>8 r <a d,> r |
-          <c g>8 r <b g> r |
+          <b d,>8 \romanesca \mmi r <a d,> \mre r |
+          <c g>8 \mfa r <b g> \mmi r \stopGroup |
           <e c g e>8 \prinner \mla r <d b g d> \mso r |
           <c a fis c>8 \mfa r <b g d b> \mmi r \stopGroup |
           <e c g e>8 r dis32 ( e16. ) dis32 ( e16. ) |
@@ -160,8 +160,8 @@
         << { \voiceOne b'4 } \new Voice { \voiceTwo g4 } >> \oneVoice g,8 r8
       }
       \repeat volta 2 { \barNumberCheck #33
-        r16 g' b d r fis, a d |
-        r16 e, g c r d, g b |
+        r16 g' \bdo b d r fis, \bti a d |
+        r16 e, \bla g c r d, \bso g b |
         r16 c, \bfa e g r b, \bmi d g |
         r16 a, \bre c fis r g, \bdo d' g |
         r16 c, e g c,8 a'8 |

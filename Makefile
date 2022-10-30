@@ -1,4 +1,9 @@
-all: scores thumbnails
+all: schemata scores thumbnails
+
+schemata: \
+	site/content/schemata/prinner/w-a2-2-42.svg \
+	site/content/schemata/prinner/w-a3-1-63.svg \
+	site/content/schemata/prinner/w-a3-2-33.svg
 
 scores: \
 	site/content/scores/w-a1/score.svg \
@@ -14,7 +19,14 @@ thumbnails: \
 	site/content/scores/w-a5/thumbnail.svg \
 	site/content/scores/w-a6/thumbnail.svg
 
-.PHONY: all scores thumbnail
+.PHONY: all schemata scores thumbnail
+
+site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/thumbnail.ly engravings/stylesheets/score.ly
+	lilypond \
+		--svg \
+		--output $(basename $@) \
+		--define-default=no-point-and-click \
+		$<
 
 site/content/scores/%/score.svg: $(filter-out engravings/scores/%/thumbnail.ly,engravings/scores/%/*.ly) engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly
 	lilypond \

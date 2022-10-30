@@ -52,7 +52,7 @@
         fis8 [ \grace { \once \stemUp a16 } g fis32 g ] a8 r | \barNumberCheck #40
         b,8. ( [ \p c32 b ) ] a8 d |
         \grace { \once \stemUp c8 } b4 \trill a8 [ r16 b ] |
-        c8 ( [ b ) ] e ( [ d ) ] |
+        c8 \prinner \mfa ( b \mmi ) e \mla ( d \mso ) \stopGroup |
         fis16 [ \f g \grace { \once \stemUp a } g fis32 g ] a8 [ r16 c, ] |
         \undo \omit TupletNumber \tuplet 3/2 { b16 [ g d' ] } \omit TupletNumber \tuplet 3/2 8 { d [ b g' ] g [ fis e ] d [ d d ] } |
         <d b>8. [ <c a>16 <b g>8 ] \tuplet 3/2 { d16 [ b g ] } |
@@ -111,7 +111,7 @@
         a16 c g b \clef "bass" d, c b a | \barNumberCheck #40
         g16 b d g fis a fis d |
         g,16 b d g fis a fis d |
-        e16 g d g c, g' b, g' |
+        e16 \bla g d \bso g c, \bfa g' b, \bmi g' |
         a,16 a' g, g' fis, fis' d, d' |
         g,4 r |
         <g' g,>4 r8 b, |

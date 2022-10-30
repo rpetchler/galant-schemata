@@ -73,9 +73,9 @@
         r16 a r b r c r e, r d r fis! r a r c |
         r16 b r b, r c r d r e r fis r g r a |
         \voiceOne r16 b r b r c r d r e r fis! r g r a |
-        b16 \p a g a g4 r8 b16 c d b d b |
-        \grace { a16 } g16 fis g a g4 r8 g16 a b g b g \oneVoice |
-        fis16 e dis e g8 dis \grace { dis16 } c8 b16 a \grace { c16 } b8 a16 g |
+        b16 \romanesca \p a g a g4 \mdo r8 b16 c d \mso b d b |
+        \grace { a16 } g16 \mdo fis g a g4 r8 g16 a b g b g \stopGroup \oneVoice |
+        fis16 \prinner e \mla dis e g8 dis \mso \grace { dis16 } c8 \mfa b16 a \grace { c16 } b8 \mmi a16 g \stopGroup |
         fis8 \f d16 cis d e fis g a b c b \grace { d16 } c8 b16 a |
         b16 g fis g b g c g d' g, e' g, fis' g, g' g, |
         fis8 d16 cis d e fis g a b c b \grace { d16 } c8 b16 a |
@@ -163,9 +163,9 @@
         c8 b a g fis a fis d |
         g8 g a b c d e fis |
         \change Staff = "up" \voiceTwo g8 g a b c d e fis |
-        g,8 b g b fis b fis b |
-        e,8 g b g b, d g d \change Staff = "down" \oneVoice |
-        c4 b fis g |
+        g,8 \bdo b g b fis \bti b fis b |
+        e,8 \bla g b g b, \bmi d g d \change Staff = "down" \oneVoice |
+        c4 \bfa b \bmi fis \bti g \bdo |
         d4 r r2 |
         g,4 g'8 a b c d e |
         <d, d,>4 r4 r2 |
