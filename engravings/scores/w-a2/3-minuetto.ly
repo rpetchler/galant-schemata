@@ -1,71 +1,79 @@
-\version "2.22.2"
+\version "2.23.6"
 \score {
   \header {
     piece = "Minuetto"
   }
   \new PianoStaff <<
     \new Staff \relative d' {
-      \repeat volta 2 {
-        \clef "treble" \time 3/4 \key d \major
-        d4 \doremi e4. \trill d16 e \stopGroup |
-        <fis d>4 <g e>8 <a fis> <b g> <cis a> |
-        \grace { e8 } <d b>4 <cis a>8 <b g> <a fis> <b g> |
-        <a fis>4 <g e> \trill <fis d> |
-        b4. g'16 b a g fis e |
-        \grace { d4 } cis2 \trill d8. <a fis>16 |
-        <a fis>4 <b g>8 <a fis> <g e> <fis d>
-        <fis d>4 \trill <e cis> r
-      }
-      \repeat volta 2 { \barNumberCheck #9
-        fis'4 ~ fis8 fis16 ( a ) d,8-. d16 ( fis ) |
-        b,4 ~ b8 b16 ( d ) gis,8-. gis16 ( b ) |
-        e,8. e'16 \grace { e } d8. cis16 \grace { cis } b8. a16 |
-        \grace { a4 } gis2 r4 |
-        a8 -. b -. cis -. d -. e -. fis -. |
-        <cis a>8 <d b> <e cis> <fis d> <gis e> <a fis> |
-        \grace { gis16 } fis8 e16 d <cis a>4 <b gis> \trill |
-        a4 r r |
-        d4. fis16 a g fis e d |
-        c8 ( b ) g' -. b, -. a -. fis' -. |
-        a,8 ( g ) e' -. g, -. fis d' |
-        fis,8 e d \trill cis b \trill a |
-        d4 e4. \trill d16 e |
-        <fis d>4 <g e>8 <a fis> <b g> <cis a> |
-        \grace { e8 } <d b>4 <cis a>8 <b g> <a fis> <b g> |
-        <a fis>4 <g e> \trill <fis d> |
-        b4. g'16 b a g fis e |
-        \grace { d4 } cis2 \trill d8 a16 d |
-        \grace { cis16 } b8 a16 g <fis d>4 <e cis> \trill
-        d2.
-      }
-      \repeat volta 2 { \barNumberCheck #29
-        \clef "treble" \key d \minor \tempo "Minore"
-        <a'' f>4 \p \trill r r8 <a f> -. |
-        <bes g>8 -. <a f> -. <g e> -.  <f d> -. <e cis> -. <f d> -. |
-        <g e>4 \trill r r8 <g e> |
-        <a f>8 <g e> <f d> <e cis> <d b> <e cis> |
-        \tuplet 3/2 { f8 -. [ g -. a -. ] } \omit TupletNumber \tuplet 3/2 4 { g [ a bes ] d, [ e f ] } |
-        \tuplet 3/2 4 { e8 [ d c ] bes [ g' bes, ] a [ c f ] } |
-        d8 c16 bes <a f>4 <g e> \trill |
-        f2.
-      }
-      \repeat volta 2 { \barNumberCheck #37
-        <c' a>4 <f a,> <f a,> |
-        <f a,>4 <e g,> r |
-        c4 <g' bes,> <g bes,> |
-        <g bes,>4 <f a,> r |
-        c4 ~ \tuplet 3/2 4 { c8 [ c' bes ] a [ bes g ] } |
-        \grace { g4 } fis2 \trill g4 |
-        \tuplet 3/2 4 { bes8 [ c a ] g [ a f ] e [ f d ] } |
-        \tuplet 3/2 { cis8 [ d b ] } a4 r |
-        <a' f>4 \trill r r8 <a f> |
-        <bes g>8 <a f> <g e> <f d> <e cis> <f d> |
-        <g e>4 \trill r r8 <g e> |
-        <a f>8 <g e> <f d> <e cis> <d b> <e cis> |
-        \tuplet 3/2 4 { f8 [ g a ] g [ a bes ] e, [ f g ] } |
-        \tuplet 3/2 4 { cis,8 [ d e ] g, [ e' g, ] f [ a d ] } |
-        \grace { c16 } bes8 a16 g <f d>4 <e cis> \trill |
-        d2.
+      #(define (format-dal-segno-text-formatter context return-count marks) "Da Capo il Maggiore")
+      \set Score.dalSegnoTextFormatter = #format-dal-segno-text-formatter
+      \set Score.fineText = \markup {}
+      \repeat segno 2 {
+        \repeat volta 2 {
+          \clef "treble" \time 3/4 \key d \major
+          d4 \doremi e4. \trill d16 e \stopGroup |
+          <fis d>4 <g e>8 <a fis> <b g> <cis a> |
+          \grace { e8 } <d b>4 <cis a>8 <b g> <a fis> <b g> |
+          <a fis>4 <g e> \trill <fis d> |
+          b4. g'16 b a g fis e |
+          \grace { d4 } cis2 \trill d8. <a fis>16 |
+          <a fis>4 <b g>8 <a fis> <g e> <fis d>
+          <fis d>4 \trill <e cis> r
+        }
+        \repeat volta 2 { \barNumberCheck #9
+          fis'4 ~ fis8 fis16 ( a ) d,8-. d16 ( fis ) |
+          b,4 ~ b8 b16 ( d ) gis,8-. gis16 ( b ) |
+          e,8. e'16 \grace { e } d8. cis16 \grace { cis } b8. a16 |
+          \grace { a4 } gis2 r4 |
+          a8 -. b -. cis -. d -. e -. fis -. |
+          <cis a>8 <d b> <e cis> <fis d> <gis e> <a fis> |
+          \grace { gis16 } fis8 e16 d <cis a>4 <b gis> \trill |
+          a4 r r |
+          d4. fis16 a g fis e d |
+          c8 ( b ) g' -. b, -. a -. fis' -. |
+          a,8 ( g ) e' -. g, -. fis d' |
+          fis,8 e d \trill cis b \trill a |
+          d4 e4. \trill d16 e |
+          <fis d>4 <g e>8 <a fis> <b g> <cis a> |
+          \grace { e8 } <d b>4 <cis a>8 <b g> <a fis> <b g> |
+          <a fis>4 <g e> \trill <fis d> |
+          b4. g'16 b a g fis e |
+          \grace { d4 } cis2 \trill d8 a16 d |
+          \grace { cis16 } b8 a16 g <fis d>4 <e cis> \trill
+          d2.
+        }
+        \section
+        \sectionLabel \markup { \fontsize #-1 \bold "Minore" }
+        \fine
+        \repeat volta 2 { \barNumberCheck #29
+          \clef "treble" \key d \minor
+          <a'' f>4 \p \trill r r8 <a f> -. |
+          <bes g>8 -. <a f> -. <g e> -.  <f d> -. <e cis> -. <f d> -. |
+          <g e>4 \trill r r8 <g e> |
+          <a f>8 <g e> <f d> <e cis> <d b> <e cis> |
+          \tuplet 3/2 { f8 -. [ g -. a -. ] } \omit TupletNumber \tuplet 3/2 4 { g [ a bes ] d, [ e f ] } |
+          \tuplet 3/2 4 { e8 [ d c ] bes [ g' bes, ] a [ c f ] } |
+          d8 c16 bes <a f>4 <g e> \trill |
+          f2.
+        }
+        \repeat volta 2 { \barNumberCheck #37
+          <c' a>4 <f a,> <f a,> |
+          <f a,>4 <e g,> r |
+          c4 <g' bes,> <g bes,> |
+          <g bes,>4 <f a,> r |
+          c4 ~ \tuplet 3/2 4 { c8 [ c' bes ] a [ bes g ] } |
+          \grace { g4 } fis2 \trill g4 |
+          \tuplet 3/2 4 { bes8 [ c a ] g [ a f ] e [ f d ] } |
+          \tuplet 3/2 { cis8 [ d b ] } a4 r |
+          <a' f>4 \trill r r8 <a f> |
+          <bes g>8 <a f> <g e> <f d> <e cis> <f d> |
+          <g e>4 \trill r r8 <g e> |
+          <a f>8 <g e> <f d> <e cis> <d b> <e cis> |
+          \tuplet 3/2 4 { f8 [ g a ] g [ a bes ] e, [ f g ] } |
+          \tuplet 3/2 4 { cis,8 [ d e ] g, [ e' g, ] f [ a d ] } |
+          \grace { c16 } bes8 a16 g <f d>4 <e cis> \trill |
+          d2.
+        }
       }
     }
     \new Staff \relative d {
@@ -129,7 +137,7 @@
         d'4 <d bes> <bes g> |
         a4 <a cis,> <a d,> |
         <g g,>4 <a a,> <a a,> |
-        d,4 a d, -\markup { \italic \right-align "Da Capo il Maggiore" }
+        d,4 a d,
       }
     }
   >>
