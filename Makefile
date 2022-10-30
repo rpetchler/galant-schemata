@@ -47,3 +47,4 @@ site/content/scores/%/thumbnail.svg: engravings/scores/%/thumbnail.ly engravings
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$<
+	python src/postprocess/scores.py $(dir $@)
