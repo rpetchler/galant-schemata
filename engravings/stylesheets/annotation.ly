@@ -46,7 +46,7 @@ bfais  = _\markup \concat { \raise #0.6 \tiny \sharp \hspace #0.2 \normalsize "â
   }
 }
 
-lowerTrill = \once \override Script.script-priority = #-100 
+lowerTrill = \once \override Script.script-priority = #-100
 
 % Schemata
 
