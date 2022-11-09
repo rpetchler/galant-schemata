@@ -28,6 +28,16 @@ class PageBundle:
         return pathlib.Path(self.directory).joinpath("score.svg")
 
 
+def remove_dimensions(page_bundle: PageBundle) -> None:
+    tree = ET.parse(page_bundle.score)
+    root = tree.getroot()
+
+    del root.attrib["height"]
+    del root.attrib["width"]
+
+    tree.write(page_bundle.score)
+
+
 def link_movements(page_bundle: PageBundle) -> None:
     front_matter = tomllib.loads(page_bundle.index.read_text().strip("+++\n"))
 
@@ -56,6 +66,8 @@ def link_movements(page_bundle: PageBundle) -> None:
 def main() -> None:
     directory = pathlib.Path(sys.argv[1])
     page_bundle = PageBundle(directory)
+
+    remove_dimensions(page_bundle)
     link_movements(page_bundle)
 
 

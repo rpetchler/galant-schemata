@@ -40,6 +40,7 @@ site/content/scores/%/score.svg: $(filter-out engravings/scores/%/thumbnail.ly,e
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$(join $(dir $<),score.ly)
+	python src/postprocess/scores.py $(dir $@)
 
 site/content/scores/%/thumbnail.svg: engravings/scores/%/thumbnail.ly engravings/stylesheets/thumbnail.ly engravings/stylesheets/typography.ly
 	lilypond \
@@ -47,4 +48,3 @@ site/content/scores/%/thumbnail.svg: engravings/scores/%/thumbnail.ly engravings
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$<
-	python src/postprocess/scores.py $(dir $@)
