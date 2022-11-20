@@ -1,27 +1,32 @@
 {{ define "main" }}
 <div class="container narrow py-3">
   <main>
-    {{ range (.Pages.ByParam "id") }}
-      <div class="card mb-3">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <div class="card-body">
-              <h5 class="card-title">{{ .Title }}</h5>
-              <div class="hstack gap-2">
-                <h6 class="card-subtitle text-muted">Op.{{ .Params.opus }} No.{{ .Params.number }}</h6>
-                <div class="vr"></div>
-                <h6 class="card-subtitle text-muted">{{ .Params.id }}</h6>
+    {{ range .Pages.GroupByParam "composer" }}
+      <h3>{{ .Key }}</h3>
+      {{ range .Pages.ByParam "id" }}
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="card-body">
+                <h5 class="card-title">{{ .Title }}</h5>
+                <div class="hstack gap-2">
+                  {{ if .Params.opus }}
+                  <h6 class="card-subtitle text-muted">{{ .Params.opus }}</h6>
+                  <div class="vr"></div>
+                  {{ end }}
+                  <h6 class="card-subtitle text-muted">{{ .Params.id }}</h6>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-8">
-            <a href="{{ .RelPermalink }}">
-              {{ $image := .Resources.GetMatch "thumbnail.svg" }}
-              <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="{{ .Title }}">
-            </a>
+            <div class="col-md-8">
+              <a href="{{ .RelPermalink }}">
+                {{ $image := .Resources.GetMatch "thumbnail.svg" }}
+                <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="{{ .Title }}">
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+      {{ end }}
     {{ end }}
   </main>
 </div>

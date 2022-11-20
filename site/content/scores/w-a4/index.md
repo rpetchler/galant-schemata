@@ -1,8 +1,7 @@
 +++
 title = "Sonata in E-flat major"
 composer = "Johann Christian Bach"
-opus = 5
-number = 4
+opus = "Op.5 No.4"
 id = "W A4"
 movements = [
   "Allegro",

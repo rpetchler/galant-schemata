@@ -8,8 +8,10 @@
     <div class="pb-2">
       <h6 class="text-muted">{{ .Params.composer }}</h6>
       <div class="hstack gap-2">
-        <h6 class="text-muted">Op.{{ .Params.opus }} No.{{ .Params.number }}</h6>
+        {{ if .Params.opus }}
+        <h6 class="text-muted">{{ .Params.opus }}</h6>
         <div class="vr"></div>
+        {{ end }}
         <h6 class="text-muted">{{ .Params.id }}</h6>
       </div>
     </div>
