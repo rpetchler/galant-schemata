@@ -16,6 +16,9 @@ scores: \
 	site/content/scores/w-a5/score.svg
 
 thumbnails: \
+	site/content/scores/kv-107-i/thumbnail.svg \
+	site/content/scores/kv-107-ii/thumbnail.svg \
+	site/content/scores/kv-107-iii/thumbnail.svg \
 	site/content/scores/w-a1/thumbnail.svg \
 	site/content/scores/w-a2/thumbnail.svg \
 	site/content/scores/w-a3/thumbnail.svg \
