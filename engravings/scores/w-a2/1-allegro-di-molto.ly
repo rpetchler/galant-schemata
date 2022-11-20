@@ -102,14 +102,14 @@
         \grace { d8 } cis4. \trill b8 a4 r |
         a4. ( b16 cis ) d8 -. e -. fis -. d -. |
         ais16 b8. b4 ~ b8 b cis \passoIndietro \mti d |
-        d16 \mdo b8. \stopGroup <b g>8 \converging [ <a fis> \mmi ] <a fis> [ <g e> \mre ] <g e> [ <fis d> \mdo ] |
+        d16 \mdo a8. \stopGroup <b g>8 \converging [ <a fis> \mmi ] <a fis> [ <g e> \mre ] <g e> [ <fis d> \mdo ] |
         <fis d>4 <e cis> \mti \stopGroup r8 a gis a |
         b4 cis16 d e fis g8 r r4 |
         a,4 b16 cis d e fis8 r r4 |
         e8. \fallingThirds \trill [ d32 e ] fis8. [ d16 ] cis8. \trill [ b32 cis ] d8. [ b16 ] |
         a8. \trill  [ g32 a ] b8. [ g16 ] fis8. \trill [ e32 fis ] g8. [ e16 ] \stopGroup | \barNumberCheck #100
-        d8 [ \f fis16 a ] d8 [ d ] \grace { e16 } d32 [ cis d8. ] \grace { e16 } d32 [ cis d8. ] |
-        b8 [ e16 g ] b8 [ b ] \grace { cis16 } b32 [ a b8. ] \grace { cis16 } b32 [ a b8. ] |
+        d8 \f fis16 a d8 d \grace { e16 } d32 cis d8. \grace { e16 } d32 cis d8. |
+        b8 e16 g b8 b \grace { cis16 } b32 a b8. \grace { cis16 } b32 a b8. |
         d,16 fis d fis d fis d fis cis e cis e cis e cis e |
         d4 r r <a' fis>8 \p r |
         <g e>8 r <fis d> r <b g> r <a fis> r |
@@ -189,7 +189,7 @@
         b,4 <b b,> <b b,> r |
         r4 fis' ( a c ) |
         <b g>4 g, r2 |
-        r4 gis' ( b \once\omit Accidental dis ) |
+        r4 gis' ( b d ) |
         <cis! a>4 a, r2 |
         a'8 a a a a a a a |
         a8 a a a a a a a |
