@@ -28,12 +28,11 @@ class PageBundle:
         return pathlib.Path(self.directory).joinpath("score.svg")
 
 
-def remove_dimensions(page_bundle: PageBundle) -> None:
+def add_classes(page_bundle: PageBundle) -> None:
     tree = ET.parse(page_bundle.score)
     root = tree.getroot()
 
-    del root.attrib["height"]
-    del root.attrib["width"]
+    root.attrib["class"] = "d-block mx-auto"
 
     tree.write(page_bundle.score)
 
@@ -67,7 +66,7 @@ def main() -> None:
     directory = pathlib.Path(sys.argv[1])
     page_bundle = PageBundle(directory)
 
-    remove_dimensions(page_bundle)
+    add_classes(page_bundle)
     link_movements(page_bundle)
 
 
