@@ -9,6 +9,7 @@ schemata: \
 	site/content/schemata/prinner/w-a3-2-33.svg
 
 scores: \
+	site/content/scores/kv-107-i/score.svg \
 	site/content/scores/w-a1/score.svg \
 	site/content/scores/w-a2/score.svg \
 	site/content/scores/w-a3/score.svg \
