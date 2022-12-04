@@ -1,4 +1,4 @@
-all: diagrams schemata scores thumbnails
+all: diagrams schemata scores incipits
 
 diagrams: \
 	site/content/schemata/prinner/diagram.svg
@@ -16,30 +16,30 @@ scores: \
 	site/content/scores/w-a4/score.svg \
 	site/content/scores/w-a5/score.svg
 
-thumbnails: \
-	site/content/scores/kv-107-i/thumbnail.svg \
-	site/content/scores/kv-107-ii/thumbnail.svg \
-	site/content/scores/kv-107-iii/thumbnail.svg \
-	site/content/scores/w-a1/thumbnail.svg \
-	site/content/scores/w-a2/thumbnail.svg \
-	site/content/scores/w-a3/thumbnail.svg \
-	site/content/scores/w-a4/thumbnail.svg \
-	site/content/scores/w-a5/thumbnail.svg \
-	site/content/scores/w-a6/thumbnail.svg
+incipits: \
+	site/content/scores/kv-107-i/incipit.svg \
+	site/content/scores/kv-107-ii/incipit.svg \
+	site/content/scores/kv-107-iii/incipit.svg \
+	site/content/scores/w-a1/incipit.svg \
+	site/content/scores/w-a2/incipit.svg \
+	site/content/scores/w-a3/incipit.svg \
+	site/content/scores/w-a4/incipit.svg \
+	site/content/scores/w-a5/incipit.svg \
+	site/content/scores/w-a6/incipit.svg
 
-.PHONY: all diagrams schemata scores thumbnail
+.PHONY: all diagrams schemata scores incipits
 
 site/content/schemata/%/diagram.svg: src/schemata/%.py
 	python $< $@
 
-site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/thumbnail.ly engravings/stylesheets/score.ly
+site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/incipit.ly engravings/stylesheets/score.ly
 	lilypond \
 		--svg \
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$<
 
-site/content/scores/%/score.svg: $(filter-out engravings/scores/%/thumbnail.ly,engravings/scores/%/*.ly) engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly
+site/content/scores/%/score.svg: $(filter-out engravings/scores/%/incipit.ly,engravings/scores/%/*.ly) engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly
 	lilypond \
 		--svg \
 		--output $(basename $@) \
@@ -47,7 +47,7 @@ site/content/scores/%/score.svg: $(filter-out engravings/scores/%/thumbnail.ly,e
 		$(join $(dir $<),score.ly)
 	python src/postprocess/scores.py $(dir $@)
 
-site/content/scores/%/thumbnail.svg: engravings/scores/%/thumbnail.ly engravings/stylesheets/thumbnail.ly engravings/stylesheets/typography.ly
+site/content/scores/%/incipit.svg: engravings/scores/%/incipit.ly engravings/stylesheets/incipit.ly engravings/stylesheets/typography.ly
 	lilypond \
 		--svg \
 		--output $(basename $@) \

@@ -1,5 +1,5 @@
 \version "2.22.2"
-%{ \include "../../stylesheets/thumbnail.ly" %}
+%{ \include "../../stylesheets/incipit.ly" %}
 \include "../../stylesheets/typography.ly"
 
 \header {
