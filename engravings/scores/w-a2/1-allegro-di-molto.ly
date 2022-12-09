@@ -9,12 +9,12 @@
         \clef "treble" \time 4/4 \key d \major
         <d a fis d>4 \triadicDescent <d a fis d> <d a fis d> \grace { cis32 d e } d8 cis16 b |
         a4 <a fis d a> <a fis d a> \grace { fis32 g a } g8 fis16 e |
-        d8 \stopGroup r d \p r cis8. \mti \fenaroli ( d32 e ) d8 \mdo r |
-        e8. \mre ( fis32 g ) fis8 \mmi r \stopGroup g r \grace { d'16 } cis8 b16 cis |
+        d8 \stopGroup r d \p r cis8. ^\bti \fenaroli ( d32 e ) d8 ^\bdo r |
+        e8. ^\bre ( fis32 g ) fis8 ^\bmi r \stopGroup g r \grace { d'16 } cis8 b16 cis |
         <d a fis d>4 \triadicDescent \f <d a fis d> <d a fis d> \grace { cis32 d e } d8 cis16 b |
         a4 <a fis d a> <a fis d a> \grace { fis32 g a } g8 fis16 e |
-        d8 \stopGroup r d \p r cis8. \mti \fenaroli ( d32 e ) d8 \mdo r |
-        e8. \mre ( fis32 g ) fis8 \mmi r \stopGroup g r \grace { d'16 } cis8 b16 cis |
+        d8 \stopGroup r d \p r cis8. ^\bti \fenaroli ( d32 e ) d8 ^\bdo r |
+        e8. ^\bre ( fis32 g ) fis8 ^\bmi r \stopGroup g r \grace { d'16 } cis8 b16 cis |
         fis,16 \f \mmi \romanesca d' fis, d' fis, d' fis, d' fis, d' fis, d' fis, d' fis, d' | \barNumberCheck #10
         e,16 \mre d' e, d' e, d' e, d' e, cis' e, cis' e, cis' e, cis' |
         d,16 \mdo cis' d, cis' d, cis' d, cis' d, b' d, b' d, b' d, b' |
@@ -83,12 +83,12 @@
         a'4 r r2 |
         <d' a fis d>4 \triadicDescent \f <d a fis d> <d a fis d> \grace { cis32 d e } d8 cis16 b |
         a4 <a fis d a> <a fis d a> \grace { fis32 g a } g8 fis16 e |
-        d8 \stopGroup r d \p r cis8. \mti \fenaroli ( d32 e ) d8 \mdo r |
-        e8. \mre ( fis32 g ) fis8 \mmi r \stopGroup g r \grace { d'16 } cis8 [ b16 cis ] |
+        d8 \stopGroup r d \p r cis8. ^\bti \fenaroli ( d32 e ) d8 ^\bdo r |
+        e8. ^\bre ( fis32 g ) fis8 ^\bmi r \stopGroup g r \grace { d'16 } cis8 [ b16 cis ] |
         <d a fis d>4 \triadicDescent \f <d a fis d> <d a fis d> \grace { cis32 d e } d8 cis16 b |
         a4 <a fis d a>4 <a fis d a> \grace { fis32 g a } g8 fis16 e |
-        d8 \stopGroup r d \p r cis8. \mti \fenaroli ( d32 e ) d8 \mdo r | \barNumberCheck #80
-        e8. \mre ( fis32 g ) fis8 \mmi r \stopGroup g r \grace { d'16 } cis8 b16 cis |
+        d8 \stopGroup r d \p r cis8. ^\bti \fenaroli ( d32 e ) d8 ^\bdo r | \barNumberCheck #80
+        e8. ^\bre ( fis32 g ) fis8 ^\bmi r \stopGroup g r \grace { d'16 } cis8 b16 cis |
         fis,16 \f d' fis, d' fis, d' fis, d' e, cis' e, cis' e, cis' e, cis' |
         d,16 b' d, b' d, b' d, b' cis, a' cis, a' cis, a' cis, a' |
         b,16 g' b, g' b, g' b, g' a, fis' a, fis' a, fis' a, fis' |
@@ -127,12 +127,12 @@
         \clef "bass" \time 4/4 \key d \major
         <d a fis d>4 <d a fis d> <d a fis d> r |
         <d a fis d>4 <d a fis d> <d a fis d> r |
-        d,8 a' fis a g \bfa a fis \bmi a |
-        cis,8 \bti a' d, \bdo a' e a a, a' |
+        d,8 a' fis a g _\mfa a fis _\mmi a |
+        cis,8 _\mti a' d, _\mdo a' e a a, a' |
         <d a fis d>4 <d a fis d> <d a fis d> r |
         <d a fis d>4 <d a fis d> <d a fis d> r |
-        d,8 a' fis a g \bfa a fis \bmi a |
-        cis,8 \bti a' d, \bdo a' e a a, a' |
+        d,8 a' fis a g _\mfa a fis _\mmi a |
+        cis,8 _\mti a' d, _\mdo a' e a a, a' |
         d,4 \bdo fis8. a16 d4 b8. gis16 | \barNumberCheck #10
         a4 \bso e8. cis16 a4 ais4 \trill |
         b4 \bla d8. fis16 b4 gis8. e16 |
@@ -201,12 +201,12 @@
         a8 cis e cis \stemUp a g' fis e |
         \stemDown <d' a fis d>4 <d a fis d> <d a fis d> r |
         <d a fis d>4 <d a fis d> <d a fis d> r |
-        d,8 a' fis a g \bfa a fis \bmi a |
-        cis,8 \bti a' d, \bdo a' e a a, a' |
+        d,8 a' fis a g _\mfa a fis _\mmi a |
+        cis,8 _\mti a' d, _\mdo a' e a a, a' |
         <d a fis d>4 <d a fis d> <d a fis d> r |
         <d a fis d>4 <d a fis d> <d a fis d> r |
-        d,8 a' fis a g \bfa a fis \bmi a | \barNumberCheck #80
-        cis,8 \bti a' d, \bdo a' e a a, a' |
+        d,8 a' fis a g _\mfa a fis _\mmi a | \barNumberCheck #80
+        cis,8 _\mti a' d, _\mdo a' e a a, a' |
         d,4 fis8. g16 a4 r |
         b,4 d8. e16 fis4 r |
         g,4 b8. cis16 d4 r |
