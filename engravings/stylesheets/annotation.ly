@@ -61,17 +61,22 @@ solfami    = -\tweak HorizontalBracketText.text "Sol-Fa-Mi"  \startGroup
 
 % Clausulae
 
-comma         = -\tweak HorizontalBracketText.text "Comma"          \startGroup
-converging    = -\tweak HorizontalBracketText.text "Converging"     \startGroup
-cudworth      = -\tweak HorizontalBracketText.text "Cudworth"       \startGroup
-grandCadence  = -\tweak HorizontalBracketText.text "Grand Cadence"  \startGroup
-halfcadence   = -\tweak HorizontalBracketText.text "Half Cadence"   \startGroup
-passoIndietro = -\tweak HorizontalBracketText.text "Passo Indietro" \startGroup
+authenticCadence = -\tweak HorizontalBracketText.text "Authentic Cadence" \startGroup
+comma            = -\tweak HorizontalBracketText.text "Comma"             \startGroup
+converging       = -\tweak HorizontalBracketText.text "Converging"        \startGroup
+converginghc     = -\tweak HorizontalBracketText.text "Converging H.C."   \startGroup
+cudworth         = -\tweak HorizontalBracketText.text "Cudworth"          \startGroup
+doSiDo           = -\tweak HorizontalBracketText.text "Do-Si-Do"          \startGroup
+grandCadence     = -\tweak HorizontalBracketText.text "Grand Cadence"     \startGroup
+halfcadence      = -\tweak HorizontalBracketText.text "Half Cadence"      \startGroup
+passoIndietro    = -\tweak HorizontalBracketText.text "Passo Indietro"    \startGroup
 
 % Other Figures
 
+ascendingHexachord = -\tweak HorizontalBracketText.text "Ascending Hexachord" \startGroup
 fallingThirds      = -\tweak HorizontalBracketText.text "Falling Thirds"      \startGroup
 fauxbourdon        = -\tweak HorizontalBracketText.text "Fauxbourdon"         \startGroup
+secondTheme        = -\tweak HorizontalBracketText.text "Second Theme"        \startGroup
+theme              = -\tweak HorizontalBracketText.text "Theme"               \startGroup
 triadicAscent      = -\tweak HorizontalBracketText.text "Triadic Ascent"      \startGroup
 triadicDescent     = -\tweak HorizontalBracketText.text "Triadic Descent"     \startGroup
-ascendingHexachord = -\tweak HorizontalBracketText.text "Ascending Hexachord" \startGroup
