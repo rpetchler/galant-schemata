@@ -31,8 +31,8 @@
         \grace { a8 } gis4. \trill fis8 e4 r |
         e'4. ( fis16 gis ) a8 -. b -. cis -. a -. |
         eis16 fis8. fis4 ~ fis8 fis gis \mti \passoIndietro a |
-        a16 \mdo e8. \stopGroup <fis d>8 \converging [ <e cis> \mmi ] <e cis> [ <d b> \mre ] <d b> [ <cis a> \mdo ] |
-        <cis a>4 <b gis> \mti \stopGroup r8 e ( dis e ) |
+        a16 \mdo e8. \stopGroup <fis d>8 \converginghc [ <e cis> ] <e cis> [ <d b> ] <d b> [ <cis a> ] |
+        <cis a>4 <b gis> \stopGroup r8 e ( dis e ) |
         fis4 gis16 a b cis d8 -. r r4 |
         e,4 fis16 gis a b cis8 r r4 |
         b8. \trill \fallingThirds a32 b cis8. a16 gis8. \trill fis32 gis a8. fis16 | \barNumberCheck #30
@@ -102,8 +102,8 @@
         \grace { d8 } cis4. \trill b8 a4 r |
         a4. ( b16 cis ) d8 -. e -. fis -. d -. |
         ais16 b8. b4 ~ b8 b cis \passoIndietro \mti d |
-        d16 \mdo a8. \stopGroup <b g>8 \converging [ <a fis> \mmi ] <a fis> [ <g e> \mre ] <g e> [ <fis d> \mdo ] |
-        <fis d>4 <e cis> \mti \stopGroup r8 a gis a |
+        d16 \mdo a8. \stopGroup <b g>8 \converginghc [ <a fis> ] <a fis> [ <g e> ] <g e> [ <fis d> ] |
+        <fis d>4 <e cis> \stopGroup r8 a gis a |
         b4 cis16 d e fis g8 r r4 |
         a,4 b16 cis d e fis8 r r4 |
         e8. \fallingThirds \trill [ d32 e ] fis8. [ d16 ] cis8. \trill [ b32 cis ] d8. [ b16 ] |
