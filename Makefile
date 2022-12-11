@@ -2,7 +2,8 @@ all: diagrams schemata scores incipits
 
 diagrams: \
 	site/content/schemata/fenaroli/diagram.svg \
-	site/content/schemata/prinner/diagram.svg
+	site/content/schemata/prinner/diagram.svg \
+	site/content/schemata/quiescenza/diagram.svg
 
 schemata: \
 	site/content/schemata/fenaroli/w-a1-1-56.svg \
@@ -10,7 +11,9 @@ schemata: \
 	site/content/schemata/fenaroli/w-a2-1-3.svg \
 	site/content/schemata/prinner/w-a2-2-42.svg \
 	site/content/schemata/prinner/w-a3-1-63.svg \
-	site/content/schemata/prinner/w-a3-2-33.svg
+	site/content/schemata/prinner/w-a3-2-33.svg \
+	site/content/schemata/quiescenza/w-a1-2-30.svg \
+	site/content/schemata/quiescenza/w-a2-1-16.svg
 
 scores: \
 	site/content/scores/kv-107-i/score.svg \
