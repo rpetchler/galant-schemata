@@ -47,11 +47,25 @@
   </a>
 </div>
 
-<div class="container">
-  {{ with .Resources.GetMatch "score.svg" }}
-    {{ .Content | safeHTML }}
-  {{ end }}
+<div class="container narrow py-3">
+  <h3>{{ .Title }}</h3>
+  {{ .Content }}
 </div>
+
+{{ range $index, $movement := .Params.movements }}
+  {{ $slug := ( printf "%d-%s" ( add 1 $index ) ( urlize $movement ) ) }}
+  <div class="container narrow py-3">
+    <h4 id="{{ $slug }}">{{ $movement }}</h4>
+    <div class="mx-auto w-75">
+      {{ $target := $.Resources.GetMatch ( path.Join $slug "overview.html" ) }}
+      {{ $target.Content | safeHTML }}
+    </div>
+  </div>
+  <div class="container py-3">
+    {{ $target := $.Resources.GetMatch ( path.Join $slug "score.svg" ) }}
+    {{ $target.Content | safeHTML }}
+  </div>
+{{ end }}
 
 {{- $js := resources.Get "js/main.js" -}}
 {{- if eq hugo.Environment "production" -}}

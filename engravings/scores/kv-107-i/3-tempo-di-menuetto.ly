@@ -1,6 +1,11 @@
 \version "2.23.6"
+\include "../../stylesheets/annotation.ly"
+\include "../../stylesheets/score.ly"
+\include "../../stylesheets/typography.ly"
 
 pizz = ^\markup \italic pizz.
+
+piece = "Tempo di Menuetto"
 
 global = {
   \time 3/4
@@ -432,9 +437,6 @@ cembaloDown = \new Voice {
 }
 
 \score {
-  \header {
-    piece = "Tempo di Menuetto"
-  }
   <<
     #(define (format-dal-segno-text-formatter context return-count marks) "Da capo Tempo di Menuetto")
     \set Score.dalSegnoTextFormatter = #format-dal-segno-text-formatter

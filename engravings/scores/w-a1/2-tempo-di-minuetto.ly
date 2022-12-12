@@ -1,4 +1,9 @@
 \version "2.22.2"
+\include "../../stylesheets/annotation.ly"
+\include "../../stylesheets/score.ly"
+\include "../../stylesheets/typography.ly"
+
+piece = "Tempo di Minuetto"
 
 global = {
   \time 3/4
@@ -178,9 +183,6 @@ downVoice = \new Voice {
 }
 
 \score {
-  \header {
-    piece = "Tempo di Minuetto"
-  }
   \new PianoStaff <<
     \new Staff = "up" << \global \upVoice >>
     \new Staff = "down" << \global \downVoice >>

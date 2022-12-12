@@ -1,4 +1,9 @@
 \version "2.22.2"
+\include "../../stylesheets/annotation.ly"
+\include "../../stylesheets/score.ly"
+\include "../../stylesheets/typography.ly"
+
+piece = "Allegro"
 
 global = {
   \time 4/4
@@ -200,9 +205,6 @@ downVoice = \new Voice {
 }
 
 \score {
-  \header {
-    piece = "Allegro"
-  }
   \new PianoStaff <<
     \new Staff = "up" << \global \upVoice >>
     \new Staff = "down" << \global \downVoice >>

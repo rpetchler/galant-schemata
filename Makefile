@@ -16,12 +16,21 @@ schemata: \
 	site/content/schemata/quiescenza/w-a2-1-16.svg
 
 scores: \
-	site/content/scores/kv-107-i/score.svg \
-	site/content/scores/w-a1/score.svg \
-	site/content/scores/w-a2/score.svg \
-	site/content/scores/w-a3/score.svg \
-	site/content/scores/w-a4/score.svg \
-	site/content/scores/w-a5/score.svg
+	site/content/scores/kv-107-i/1-allegro/score.svg \
+	site/content/scores/kv-107-i/2-andante/score.svg \
+	site/content/scores/kv-107-i/3-tempo-di-menuetto/score.svg \
+	site/content/scores/w-a1/1-allegretto/score.svg \
+	site/content/scores/w-a1/2-tempo-di-minuetto/score.svg \
+	site/content/scores/w-a2/1-allegro-di-molto/score.svg \
+	site/content/scores/w-a2/2-andante-di-molto/score.svg \
+	site/content/scores/w-a2/3-minuetto/score.svg \
+	site/content/scores/w-a3/1-allegro/score.svg \
+	site/content/scores/w-a3/2-allegretto/score.svg \
+	site/content/scores/w-a4/1-allegro/score.svg \
+	site/content/scores/w-a4/2-allegretto/score.svg \
+	site/content/scores/w-a5/1-allegro-assai/score.svg \
+	site/content/scores/w-a5/2-adagio/score.svg \
+	site/content/scores/w-a5/3-prestissimo/score.svg
 
 incipits: \
 	site/content/scores/kv-107-i/incipit.svg \
@@ -46,13 +55,13 @@ site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/inc
 		--define-default=no-point-and-click \
 		$<
 
-site/content/scores/%/score.svg: $(filter-out engravings/scores/%/incipit.ly,engravings/scores/%/*.ly) engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly
+site/content/scores/%/score.svg: engravings/scores/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly
 	lilypond \
 		--svg \
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
-		$(join $(dir $<),score.ly)
-	python src/postprocess/scores.py $(dir $@)
+		$<
+	python src/postprocess/scores.py $@
 
 site/content/scores/%/incipit.svg: engravings/scores/%/incipit.ly engravings/stylesheets/incipit.ly engravings/stylesheets/typography.ly
 	lilypond \

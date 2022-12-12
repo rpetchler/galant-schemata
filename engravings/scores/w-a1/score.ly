@@ -1,6 +1,0 @@
-\version "2.22.2"
-\include "../../stylesheets/annotation.ly"
-\include "../../stylesheets/score.ly"
-\include "../../stylesheets/typography.ly"
-\include "1-allegretto.ly"
-\include "2-tempo-di-minuetto.ly"

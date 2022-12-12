@@ -1,4 +1,9 @@
 \version "2.22.2"
+\include "../../stylesheets/annotation.ly"
+\include "../../stylesheets/score.ly"
+\include "../../stylesheets/typography.ly"
+
+piece = "Allegro"
 
 global = {
   \time 4/4
@@ -804,9 +809,6 @@ cembaloDown = \new Voice {
 }
 
 \score {
-  \header {
-    piece = "Allegro"
-  }
   \layout {
     \context {
       \Staff

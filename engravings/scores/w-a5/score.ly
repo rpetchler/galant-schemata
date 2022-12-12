@@ -1,7 +1,0 @@
-\version "2.22.2"
-\include "../../stylesheets/annotation.ly"
-\include "../../stylesheets/score.ly"
-\include "../../stylesheets/typography.ly"
-\include "1-allegro-assai.ly"
-\include "2-adagio.ly"
-\include "3-prestissimo.ly"
