@@ -58,7 +58,7 @@
     <h4 id="{{ $slug }}">{{ $movement }}</h4>
     <div class="mx-auto w-75">
       {{ $target := $.Resources.GetMatch ( path.Join $slug "overview.html" ) }}
-      {{ $target.Content | safeHTML }}
+      {{ ( replace $target.Content "\n" ( printf "<caption>Overview of schemata in %s</caption>\n" $movement ) 1 ) | safeHTML }}
     </div>
   </div>
   <div class="container py-3">
