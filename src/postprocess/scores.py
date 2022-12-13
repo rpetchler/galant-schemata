@@ -9,11 +9,9 @@ ET.register_namespace("", NAMESPACE)
 ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
 
 
-def add_classes(path: pathlib.Path) -> None:
+def nop(path: pathlib.Path) -> None:
     tree = ET.parse(path)
     root = tree.getroot()
-
-    root.attrib["class"] = "d-block mx-auto"
 
     tree.write(path)
 
@@ -21,7 +19,7 @@ def add_classes(path: pathlib.Path) -> None:
 def main() -> None:
     path = pathlib.Path(sys.argv[1])
 
-    add_classes(path)
+    nop(path)
 
 
 if __name__ == "__main__":

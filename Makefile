@@ -48,12 +48,13 @@ incipits: \
 site/content/schemata/%/diagram.svg: src/schemata/%.py
 	python $< $@
 
-site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/incipit.ly engravings/stylesheets/score.ly
+site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/schemata.ly
 	lilypond \
 		--svg \
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$<
+	npx svgo $@
 
 site/content/scores/%/score.svg: engravings/scores/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly
 	lilypond \
@@ -62,6 +63,7 @@ site/content/scores/%/score.svg: engravings/scores/%.ly engravings/stylesheets/a
 		--define-default=no-point-and-click \
 		$<
 	python src/postprocess/scores.py $@
+	npx svgo $@
 
 site/content/scores/%/incipit.svg: engravings/scores/%/incipit.ly engravings/stylesheets/incipit.ly engravings/stylesheets/typography.ly
 	lilypond \
@@ -69,3 +71,4 @@ site/content/scores/%/incipit.svg: engravings/scores/%/incipit.ly engravings/sty
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$<
+	npx svgo $@
