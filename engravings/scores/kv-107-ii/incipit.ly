@@ -2,9 +2,6 @@
 %{ \include "../../stylesheets/incipit.ly" %}
 \include "../../stylesheets/typography.ly"
 
-\header {
-  tagline = ##f
-}
 \paper {
   page-breaking = #ly:one-page-breaking
 }

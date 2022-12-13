@@ -1,6 +1,7 @@
 \version "2.22.2"
 \include "../../stylesheets/annotation.ly"
 \include "../../stylesheets/schemata.ly"
+\include "../../stylesheets/typography.ly"
 \score {
   \new PianoStaff <<
     \new Staff \relative g' {

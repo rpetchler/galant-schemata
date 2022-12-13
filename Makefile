@@ -48,7 +48,7 @@ incipits: \
 site/content/schemata/%/diagram.svg: src/schemata/%.py
 	python $< $@
 
-site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/schemata.ly
+site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/schemata.ly engravings/stylesheets/typography.ly
 	lilypond \
 		--svg \
 		--output $(basename $@) \

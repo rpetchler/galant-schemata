@@ -1,8 +1,14 @@
+\header {
+  tagline = ##f
+}
+
 \paper {
   scoreTitleMarkup = \markup {
     \fontsize #1 \bold \fromproperty #'header:piece
   }
 }
+
+pizz = ^\markup \italic pizz.
 
 % https://lilypond.org/doc/v2.23/Documentation/snippets/rhythms#rhythms-positioning-opposing-fermatas-on-a-bar-line
 upFermata = {

@@ -3,8 +3,6 @@
 \include "../../stylesheets/score.ly"
 \include "../../stylesheets/typography.ly"
 
-pizz = ^\markup \italic pizz.
-
 piece = "Tempo di Menuetto"
 
 global = {
