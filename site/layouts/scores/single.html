@@ -47,25 +47,28 @@
   </a>
 </div>
 
-<div class="container narrow py-3">
-  <h3>{{ .Title }}</h3>
-  {{ .Content }}
-</div>
-
-{{ range $index, $movement := .Params.movements }}
-  {{ $slug := ( printf "%d-%s" ( add 1 $index ) ( urlize $movement ) ) }}
-  <div class="container narrow py-3">
-    <h4 id="{{ $slug }}">{{ $movement }}</h4>
-    <div class="mx-auto w-75">
-      {{ $target := $.Resources.GetMatch ( path.Join $slug "overview.html" ) }}
-      {{ ( replace $target.Content "\n" ( printf "<caption>Overview of schemata in %s</caption>\n" $movement ) 1 ) | safeHTML }}
+<div class="py-3">
+  <main>
+    <div class="narrow mx-auto">
+      <h3>{{ .Title }}</h3>
+      {{ .Content }}
     </div>
-  </div>
-  <div class="container py-3">
-    {{ $target := $.Resources.GetMatch ( path.Join $slug "score.svg" ) }}
-    {{ $target.Content | safeHTML }}
-  </div>
-{{ end }}
+    {{ range $index, $movement := .Params.movements }}
+      {{ $slug := ( printf "%d-%s" ( add 1 $index ) ( urlize $movement ) ) }}
+      <div class="narrow mx-auto py-3">
+        <h4 id="{{ $slug }}">{{ $movement }}</h4>
+        <div class="mx-auto w-75">
+          {{ $target := $.Resources.GetMatch ( path.Join $slug "overview.html" ) }}
+          {{ ( replace $target.Content "\n" ( printf "<caption>Overview of schemata in %s</caption>\n" $movement ) 1 ) | safeHTML }}
+        </div>
+      </div>
+      <div class="py-3">
+        {{ $target := $.Resources.GetMatch ( path.Join $slug "score.svg" ) }}
+        {{ $target.Content | safeHTML }}
+      </div>
+    {{ end }}
+  </main>
+</div>
 
 {{- $js := resources.Get "js/main.js" -}}
 {{- if eq hugo.Environment "production" -}}
