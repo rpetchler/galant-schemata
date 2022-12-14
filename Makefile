@@ -56,13 +56,13 @@ site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/ann
 		$<
 	npx svgo $@
 
-site/content/scores/%/score.svg: engravings/scores/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly
+site/content/scores/%/score.svg: engravings/scores/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly src/postprocess/scores.py
 	lilypond \
 		--svg \
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$<
-	python src/postprocess/scores.py $@
+	python $(filter %.py, $^) $@
 	npx svgo $@
 
 site/content/scores/%/incipit.svg: engravings/scores/%/incipit.ly engravings/stylesheets/incipit.ly engravings/stylesheets/typography.ly
