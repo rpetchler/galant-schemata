@@ -26,10 +26,10 @@ upVoice = \new Voice {
       e,16 \mre d' e, d' e, d' e, d' e, cis' e, cis' e, cis' e, cis' |
       d,16 \mdo cis' d, cis' d, cis' d, cis' d, b' d, b' d, b' d, b' |
       cis,16 \mti b' cis, b' cis, b' cis, b' cis, a' cis, a' cis, a' cis, a' \stopGroup |
-      fis16 a fis a e a e a d, a' d, a' cis, a' cis, a' |
+      fis16 \converginghc a fis a e a e a d, a' d, a' cis, a' cis, a' |
       fis16 a fis a e a e a d, a' d, a' cis, a' cis, a' |
       b,16 dis fis a b, dis fis a b, dis fis a b, dis fis a |
-      <gis e b>4 r8 b,16 e gis8 e16 gis b8 d,! \mties \quiescenza |
+      <gis e b>4 r8 \stopGroup b,16 e gis8 e16 gis b8 d,! \mties \quiescenza |
       <cis a>4 \mla r8 a16 cis e8 cis16 e a8 dis, \mtina |
       <e b gis>4 \mdo \stopGroup b16 gis b gis e4 r |
       e'4. ( \p fis16 gis ) a8 -. gis -. fis -. e -. | \barNumberCheck #20
@@ -70,12 +70,12 @@ upVoice = \new Voice {
       d4 r8 b -. b'4 -. a -. |
       g4 -. r8 b, -. <b' g>4 -.  <a fis> -. |
       <g e>4 -. r8 b, <b' g e>4 <a fis! dis> |
-      <g e b>4 g8. \trill fis32 g fis4 ais, |
-      b4 r8 b b'4 a |
+      <g e b>4 \authenticCadence g8. \trill fis32 g fis4 ais, |
+      b4 \stopGroup r8 b b'4 a |
       g4 r8 b, <b' g>4 <a fis> |
       <g e>4 r8 b, <b' g e>4 <a fis! dis> |
-      <g e b>4 g8. fis32 g fis4 <ais, e> | \barNumberCheck #60
-      <b d,>4 fis16 d fis d <b' fis d>4 r |
+      <g e b>4 \authenticCadence g8. fis32 g fis4 <ais, e> | \barNumberCheck #60
+      <b d,>4 fis16 d fis d <b' fis d>4 \stopGroup r |
       d4 ( \p d8. ) e32 cis d8 d d d |
       d4. ( e16 fis ) g8 fis e dis |
       e4 ( e8. ) fis32 dis e8 e e e |
@@ -147,10 +147,10 @@ downVoice = \new Voice {
       a4 \bso e8. cis16 a4 ais4 \trill |
       b4 \bla d8. fis16 b4 gis8. e16 |
       a4 \bso e8. cis16 a4 cis8. a16 |
-      d8 a' cis, a' fis a e a |
-      d,8 a' cis, a' fis a e a |
-      dis,8 fis b fis dis fis b fis |
-      e8 gis16 b e4 r2 |
+      d8 \bfa a' cis, a' fis a e a |
+      d,8 \bfa a' cis, a' fis a e a |
+      dis,8 \bfais fis b fis dis fis b fis |
+      e8 \bso gis16 b e4 r2 |
       e,8 a16 cis e4 r2 |
       <e, e,>4 <e e,> <e e,> r |
       a4 a, r2 | \barNumberCheck #20
@@ -191,12 +191,12 @@ downVoice = \new Voice {
       b8 b' b, b' b, b' b, b' |
       b,8 b' b, b' b, b' b, b' |
       b,8 b' b, b' b, b' b, b' |
-      e,,8 e' e, e' fis, fis' fis, fis' |
-      b,8 b' b, \p b' b, b' b, b' |
+      e,,8 \bfa e' e, e' fis, \bso fis' fis, fis' |
+      b,8 \bdo b' b, \p b' b, b' b, b' |
       b,8 b' b, b' b, b' b, b' |
       b,8 b' b, \f b' b, b' b, b' |
-      e,,8 e' e, e' fis, fis' fis, fis' | \barNumberCheck #60
-      b,4 <b b,> <b b,> r |
+      e,,8 \bfa e' e, e' fis, \bso fis' fis, fis' | \barNumberCheck #60
+      b,4 \bdo <b b,> <b b,> r |
       r4 fis' ( a c ) |
       <b g>4 g, r2 |
       r4 gis' ( b d ) |

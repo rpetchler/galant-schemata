@@ -50,6 +50,7 @@ lowerTrill = \once \override Script.script-priority = #-100
 
 % Schemata
 
+aprile     = -\tweak HorizontalBracketText.text "Aprile"     \startGroup
 doremi     = -\tweak HorizontalBracketText.text "Do-Re-Mi"   \startGroup
 fenaroli   = -\tweak HorizontalBracketText.text "Fenaroli"   \startGroup
 fonte      = -\tweak HorizontalBracketText.text "Fonte"      \startGroup
