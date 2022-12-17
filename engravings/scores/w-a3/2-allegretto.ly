@@ -1,4 +1,4 @@
-\version "2.23.6"
+\version "2.24.0"
 \include "../../stylesheets/annotation.ly"
 \include "../../stylesheets/score.ly"
 \include "../../stylesheets/typography.ly"
