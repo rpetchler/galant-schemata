@@ -20,9 +20,9 @@ A repeated, pre-cadential Fenaroli.
   "J. C. Bach, Opus 5, no. 1, mvt. 1, Allegretto, m. 56 (London, 1766)"
 >}}
 
-The Fenaroli as a riposte to an opening theme. An embedded comma reinforces a
-pre-cadential effect. The schema lacks a pedal point on ➄ but the chords in the
-first beat of each measure create a similar effect.
+The Fenaroli as a riposte to an opening theme. It lacks a pedal point on ➄ but
+the chords in the first beat of each measure create a similar effect. An
+embedded Comma reinforces a pre-cadential effect.
 
 {{<
   figure

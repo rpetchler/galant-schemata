@@ -14,7 +14,7 @@ upVoice = \new Voice {
   \relative f'' {
     \repeat volta 2 {
       \clef "treble"
-      <f d>4 \theme ~ \tuplet 3/2 4 { f8 d f bes d bes } \override TupletBracket.bracket-visibility = ##f \omit TupletNumber |
+      <f d>4 \theme ~ \tuplet 3/2 4 { f8 d f bes d bes } \omit TupletBracket \omit TupletNumber |
       <f d>4 ~ \tuplet 3/2 4 { f8 d f bes d bes \stopGroup } |
       f4 \trill \tuplet 3/2 4 { g8 \converging f es d c bes } |
       a8. \trill ( bes32 c ) bes4 \stopGroup r |
@@ -56,10 +56,10 @@ upVoice = \new Voice {
       <bes g>8 \p r <a f> r <g e> \mtina r |
       f16 \mdo \stopGroup \once \override HorizontalBracket.shorten-pair = #'(-1.5 . 0) g \ascendingHexachord a g f8 a c a |
       g16 \mre a bes a g8 bes d bes |
-      \once \override DynamicTextSpanner.style = #'none \crescTextCresc a16 \mmi \< bes c bes a8 c es c |
-      bes16 \mfa c d c bes8 d f d |
-      \once \undo \omit TupletNumber \tuplet 3/2 { c8 \mso \! f a } \tuplet 3/2 4 { c8 bes a g f es } |
-      \tuplet 3/2 4 { d8 \mla f bes d c bes a g f \stopGroup } |
+      \once \override DynamicTextSpanner.style = #'none \crescTextCresc \once \override HorizontalBracket.outside-staff-priority = #455 a16 \fenaroli ^\bti \mmi \< bes c bes a8 c es c |
+      bes16 ^\bdo \mfa c d c bes8 d f d |
+      \once \undo \omit TupletNumber \tuplet 3/2 { c8 ^\bre \mso \! f a } \tuplet 3/2 4 { c8 bes a g f es } |
+      \tuplet 3/2 4 { d8 ^\bmi \mla f bes d c bes a g f \stopGroup \stopGroup } |
       \tuplet 3/2 4 { g8 \fallingThirds a bes es, f g c, d es \stopGroup } |
       \stemUp \tuplet 3/2 4 { a,8 c bes a g f es \comma \mfa d c } \stemNeutral |
       \tuplet 3/2 4 { d8 \mmi es f \stopGroup g \converging f es d c bes } |
@@ -142,10 +142,10 @@ downVoice = \new Voice {
       f,8 f' f, f' f, f' |
       f,4 r r |
       R2. |
-      <es' es,>2. |
-      <d d,>2. |
-      a4 a' r |
-      bes,4 bes' r |
+      <es' es,>2. _\mfa |
+      <d d,>2. _\mmi |
+      a4 _\mti a' r |
+      bes,4 _\mdo bes' r |
       es,4 g es |
       f4 r a, \bti |
       bes4 \bdo es, \bfa e \bfais |

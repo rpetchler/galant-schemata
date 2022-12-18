@@ -29,7 +29,7 @@ upVoice = \new Voice {
       d8 \mmi [ r16 bes \stopGroup ] d f bes \halfcadence bes |
       bes16 g \grace a g f \grace g f es \grace f es d |
       d8 \stopGroup \trill c r4 |
-      c4 \secondTheme \p \grace b16 c8 \grace b16 c8 |
+      c4 \tweak shorten-pair #'(0 . -3) \secondTheme \p \grace b16 c8 \grace b16 c8 |
       d8. \trill e16 f8-. r |
       g4 \grace fis16 g8 \grace fis16 g8 |
       a8. \trill bes16 c8 r \stopGroup |
@@ -37,14 +37,14 @@ upVoice = \new Voice {
       << { d'8 bes16 g } \\ { d4 } >> \oneVoice d8 [ r16 bes' ] |
       a8 \trill c16 f, g8. \trill f32 g |
       f4 r16 c ( \p a f ) \stopGroup |
-      c4 \secondTheme \grace b16 c8 \grace b16 c8 |
+      c4 \tweak shorten-pair #'(0 . -3) \secondTheme \grace b16 c8 \grace b16 c8 |
       d8. \trill e16 f8 r |
       g4 \grace fis16 g8 \grace fis16 g8 |
       a8. bes16 c8 r \stopGroup |
       << { \voiceOne c8 \authenticCadence \f a16 f c'8 a16 f } \new Voice { \voiceTwo c4 c } >> \oneVoice |
       << { d'8 bes16 g } \\ { d4 } >> \oneVoice d8 [ r16 bes' ] |
       a8 c16 f, g8. \trill f32 g | \barNumberCheck #30
-      f8 \stopGroup [ r16 c'' ] a32 \triadicDescent [ c16. ] f,32 [ a16. ] |
+      f8 [ r16 c'' \stopGroup ] a32 \triadicDescent [ c16. ] f,32 [ a16. ] |
       c,32 [ f16. ] \stemUp a,32 [ c16. ] \stemNeutral f,32 [ a16. \stopGroup ] g32 [ e16. ] |
       f8 [ r16 c'' ] a32 \triadicDescent [ c16. ] f,32 [ a16. ] |
       c,32 [ f16. ] \stemUp a,32 [ c16. ] \stemNeutral f,32 [ a16. \stopGroup ] g32 [ e16. ] |
@@ -80,7 +80,7 @@ upVoice = \new Voice {
       f'16 f \stopGroup e f c f a, c |
       f,4 f8 [ r16 f ] |
       f8. \fermata e16 f8 r |
-      f4 \secondTheme \p \grace e16 f8 \grace e16 f8 |
+      f4 \tweak shorten-pair #'(0 . -3) \secondTheme \p \grace e16 f8 \grace e16 f8 |
       g8. \trill a16 bes8 r |
       c4 \grace b16 c8 \grace b16 c8 |
       d8. \trill es16 f8 r \stopGroup |
@@ -88,14 +88,14 @@ upVoice = \new Voice {
       << { g'8 es16 c } \\ { g4 } >> \oneVoice \stemDown g8 [ r16 es' ] \stemNeutral |
       d8 f16 bes, c8. \trill bes32 c | \barNumberCheck #70
       bes4 r16 f' \p d bes \stopGroup |
-      f4 \secondTheme \grace e16 f8 \grace e16 f8 |
+      f4 \tweak shorten-pair #'(0 . -3) \secondTheme \grace e16 f8 \grace e16 f8 |
       g8. \trill a16 bes8 r |
       c4 \grace b16 c8 \grace b16 c8 |
       d8. \trill es16 f8 r \stopGroup |
       << { \voiceOne f8 \authenticCadence \f d16 bes f'8 d16 bes } \new Voice { \voiceTwo f4 f } >> \oneVoice |
       << { g'8 es16 c } \\ { g4 } >> \oneVoice \stemDown g8 [ r16 es' ] \stemNeutral |
-      d8 \trill \once \override TupletBracket.bracket-visibility = ##f \once \tupletUp \tuplet 3/2 { f16 d bes } c8. \trill bes32 c |
-      bes8 \stopGroup [ r16 d' ] bes32 \triadicDescent [ d16. ] f,32 [ bes16. ] |
+      d8 \trill \once \omit TupletBracket \once \tupletUp \tuplet 3/2 { f16 d bes } c8. \trill bes32 c |
+      bes8 [ r16 d' \stopGroup ] bes32 \triadicDescent [ d16. ] f,32 [ bes16. ] |
       d,32 [ f16. ] bes,32 [ d16. ] f,32 [ d'16. \stopGroup ] \stemUp c32 [ a16. ] \stemNeutral | \barNumberCheck #80
       bes8 [ r16 d' ] bes32 \triadicDescent [ d16. ] f,32 [ bes16. ] |
       d,32 [ f16. ] bes,32 [ d16. ] f,32 [ d'16. \stopGroup ] \stemUp c32 [ a16. ] \stemNeutral |

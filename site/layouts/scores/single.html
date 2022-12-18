@@ -57,6 +57,9 @@
       {{ $slug := ( printf "%d-%s" ( add 1 $index ) ( urlize $movement ) ) }}
       <div class="narrow mx-auto py-3">
         <h4 id="{{ $slug }}">{{ $movement }}</h4>
+        {{ with $.Resources.GetMatch ( path.Join $slug "index.md" ) }}
+          {{ .Content }}
+        {{ end }}
         <div class="mx-auto w-75">
           {{ $target := $.Resources.GetMatch ( path.Join $slug "overview.html" ) }}
           {{ ( replace $target.Content "\n" ( printf "<caption>Overview of schemata in %s</caption>\n" $movement ) 1 ) | safeHTML }}
