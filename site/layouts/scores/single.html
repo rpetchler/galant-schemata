@@ -61,8 +61,9 @@
           {{ .Content }}
         {{ end }}
         <div class="mx-auto w-75">
-          {{ $target := $.Resources.GetMatch ( path.Join $slug "overview.html" ) }}
-          {{ ( replace $target.Content "\n" ( printf "<caption>Overview of schemata in %s</caption>\n" $movement ) 1 ) | safeHTML }}
+          {{ with $.Resources.GetMatch ( path.Join $slug "overview.html" ) }}
+            {{ ( replace .Content "\n" ( printf "<caption>Overview of schemata in %s</caption>\n" $movement ) 1 ) | safeHTML }}
+          {{ end }}
         </div>
       </div>
       <div class="py-3">
