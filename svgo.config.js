@@ -5,7 +5,6 @@ module.exports = {
   },
   plugins: [
     "preset-default",
-    "removeUselessStrokeAndFill",
     {
       name: "addClassesToSVGElement",
       params: {
