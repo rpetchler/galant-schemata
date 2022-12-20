@@ -542,6 +542,7 @@
     <rect width=".13" height="2.303" x="-.065" y="-5.489" fill="currentColor" ry=".04" transform="translate(142.088 50.446)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 143.334 42.228)"/>
     <rect width=".13" height="3.322" x="-.065" y="-2.008" fill="currentColor" ry=".04" transform="translate(144.573 40.728)"/>
+    <path fill="currentColor" d="M158.812 37.596a.281.281 0 1 1 .563 0 .281.281 0 0 1-.563 0zm.282-1.323c1.07 0 1.394 1.39 1.394 1.537 0 .038-.042.063-.08.063s-.071-.02-.08-.075c-.109-.622-.613-1.1-1.234-1.1s-1.126.478-1.235 1.1c-.008.054-.042.075-.08.075s-.08-.025-.08-.062c0-.148.324-1.538 1.395-1.538z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 147.328 42.228)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 147.328 47.446)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 147.328 48.946)"/>
@@ -566,8 +567,8 @@
     <rect width="1.956" height=".2" x="65.676" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 61.362)"/>
     <rect width="1.956" height=".2" x="58.663" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 61.362)"/>
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M8.017 66.362h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976"/>
-    <rect width=".6" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(160.443 55.56)"/>
-    <rect width=".19" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(159.953 55.56)"/>
+    <rect width=".6" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(160.443 55.701)"/>
+    <rect width=".19" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(159.953 55.701)"/>
     <rect width="1.956" height=".2" x="43.516" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 76.362)"/>
     <rect width="1.956" height=".2" x="43.516" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 77.362)"/>
     <rect width="1.956" height=".2" x="38.248" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 76.362)"/>
@@ -581,35 +582,35 @@
     <use xlink:href="#2-allegretto__reuse-0" transform="matrix(.004 0 0 -.004 159.203 64.862)"/>
     <rect width=".6" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(160.443 64.362)"/>
     <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(159.953 64.362)"/>
-    <rect width=".19" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(140.398 55.56)"/>
+    <rect width=".19" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(140.398 55.701)"/>
     <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(140.398 73.362)"/>
     <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(140.398 64.362)"/>
-    <rect width=".19" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(123.007 55.56)"/>
+    <rect width=".19" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(123.007 55.701)"/>
     <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(123.007 73.362)"/>
     <use xlink:href="#2-allegretto__reuse-0" transform="matrix(.004 0 0 -.004 15.857 63.862)"/>
     <use xlink:href="#2-allegretto__reuse-0" transform="matrix(.004 0 0 -.004 15.857 64.862)"/>
     <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(15.367 64.362)"/>
     <rect width=".6" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(14.467 64.362)"/>
     <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(123.007 64.362)"/>
-    <rect width=".19" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(105.038 55.56)"/>
+    <rect width=".19" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(105.038 55.701)"/>
     <use xlink:href="#2-allegretto__reuse-0" transform="matrix(.004 0 0 -.004 15.857 72.862)"/>
     <use xlink:href="#2-allegretto__reuse-0" transform="matrix(.004 0 0 -.004 15.857 73.862)"/>
     <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(15.367 73.362)"/>
     <rect width=".6" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(14.467 73.362)"/>
     <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(105.038 73.362)"/>
     <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(105.038 64.362)"/>
-    <rect width=".19" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(85.832 55.56)"/>
+    <rect width=".19" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(85.832 55.701)"/>
     <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(85.832 73.362)"/>
     <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(85.832 64.362)"/>
-    <rect width=".19" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(68.69 55.56)"/>
+    <rect width=".19" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(68.69 55.701)"/>
     <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(68.69 73.362)"/>
-    <rect width=".19" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(15.367 55.56)"/>
-    <rect width=".6" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(14.467 55.56)"/>
     <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(68.69 64.362)"/>
-    <rect width=".19" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(50.891 55.56)"/>
+    <rect width=".19" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(15.367 55.701)"/>
+    <rect width=".6" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(14.467 55.701)"/>
+    <rect width=".19" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(50.891 55.701)"/>
     <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(50.891 73.362)"/>
     <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(50.891 64.362)"/>
-    <rect width=".19" height="4.95" y="10.851" fill="currentColor" ry="0" transform="translate(33.869 55.56)"/>
+    <rect width=".19" height="4.95" y="10.71" fill="currentColor" ry="0" transform="translate(33.869 55.701)"/>
     <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(33.869 73.362)"/>
     <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(33.869 64.362)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 17.607 64.362)"/>
@@ -651,7 +652,6 @@
     <rect width=".13" height="3.307" x="-.065" y="-3.493" fill="currentColor" ry=".04" transform="translate(32.993 64.362)"/>
     <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M113.175 62.352v.4l-6.005-.19v-.4zm0 .81v.4l-6.005-.19v-.4zm4.532 12.81v.4l-7.741.38v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 34.898 63.862)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M104.152 61.352v.4h-6.006v-.4zm0 .81v.4h-6.006v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 34.898 72.862)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 34.898 76.362)"/>
     <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(34.898 78.955)">
@@ -661,22 +661,22 @@
     <use xlink:href="#2-allegretto__reuse-0" transform="matrix(.004 0 0 -.004 36.652 72.862)"/>
     <rect width=".13" height="6.481" x="-.065" y="-3.667" fill="currentColor" ry=".04" transform="translate(36.137 73.362)"/>
     <use xlink:href="#2-allegretto__reuse-0" transform="matrix(.004 0 0 -.004 36.652 75.862)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M106.582 66.557c1.23 1.234 4.59 1.432 5.956.35h0c-1.358.962-4.72.764-5.956-.35z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M104.152 61.352v.4h-6.006v-.4zm0 .81v.4h-6.006v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 36.633 65.362)"/>
     <rect width=".13" height="2.314" x="-.065" y="1.186" fill="currentColor" ry=".04" transform="translate(36.698 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M101.547 67.407c.97.166 2.021-.539 2.235-1.5h0c-.28.862-1.331 1.566-2.235 1.5z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M106.582 66.557c1.23 1.234 4.59 1.432 5.956.35h0c-1.358.962-4.72.764-5.956-.35z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 38.868 62.862)"/>
     <rect width=".13" height="4.814" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(38.933 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M93.868 66.162v.4h-5.756v-.4zm0 .81v.4h-5.756v-.4z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M101.547 67.407c.97.166 2.021-.539 2.235-1.5h0c-.28.862-1.331 1.566-2.235 1.5z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 40.854 63.362)"/>
     <rect width=".13" height="4.314" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(40.919 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M97.72 66.568a1.47 1.47 0 0 0 1.985-.65h0c-.413.62-1.302.911-1.986.65z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M93.868 66.162v.4h-5.756v-.4zm0 .81v.4h-5.756v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 42.82 63.862)"/>
     <rect width=".13" height="3.121" x="-.065" y="-3.807" fill="currentColor" ry=".04" transform="translate(44.06 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M92.369 63.167a1.457 1.457 0 0 1 1.985-.35h0c-.623-.317-1.507-.16-1.985.35z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M97.72 66.568a1.47 1.47 0 0 0 1.985-.65h0c-.413.62-1.302.911-1.986.65z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 44.556 65.362)"/>
     <rect width=".13" height="4.532" x="-.065" y="-3.718" fill="currentColor" ry=".04" transform="translate(45.795 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M82.924 70.972v.4l-4.02-1.81v-.4z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M92.369 63.167a1.457 1.457 0 0 1 1.985-.35h0c-.623-.317-1.507-.16-1.985.35z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 46.541 65.862)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 46.541 73.362)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 46.541 76.862)"/>
@@ -686,10 +686,10 @@
     <rect width=".13" height="4.931" x="-.065" y="-3.617" fill="currentColor" ry=".04" transform="translate(47.78 64.362)"/>
     <rect width=".13" height="6.689" x="-.065" y="-3.375" fill="currentColor" ry=".04" transform="translate(47.78 73.362)"/>
     <use xlink:href="#2-allegretto__reuse-12" transform="matrix(.004 0 0 -.004 47.846 70.027)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M84.91 61.162v.4l-6.006-.81v-.4zm0 .81v.4l-6.006-.81v-.4z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M82.924 70.972v.4l-4.02-1.81v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 48.777 64.362)"/>
     <rect width=".13" height="3.317" x="-.065" y="-3.503" fill="currentColor" ry=".04" transform="translate(50.016 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M88.648 62.167a1.457 1.457 0 0 1 1.986-.35h0c-.624-.317-1.508-.16-1.986.35zm-13.415 7.495v.4l-4.27 1.31v-.4z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M84.91 61.162v.4l-6.006-.81v-.4zm0 .81v.4l-6.006-.81v-.4zm3.738.195a1.457 1.457 0 0 1 1.986-.35h0c-.624-.317-1.508-.16-1.986.35z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 51.809 66.362)"/>
     <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(51.809 61.03)">
 <tspan>➏</tspan>
@@ -701,16 +701,16 @@
 </text>
     <rect width=".13" height="3.833" x="-.065" y="-2.019" fill="currentColor" ry=".04" transform="translate(53.048 64.362)"/>
     <rect width=".13" height="6.814" x="-.065" y="-3" fill="currentColor" ry=".04" transform="translate(53.048 73.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M75.794 66.162v.4h-6.006v-.4zm0 .81v.4h-6.006v-.4z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M75.233 69.662v.4l-4.27 1.31v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 54.044 65.362)"/>
     <rect width=".13" height="3.487" x="-.065" y="-2.673" fill="currentColor" ry=".04" transform="translate(55.283 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M67.046 64.162v.4l-6.506 1.19v-.4zm0 .81v.4l-6.506 1.19v-.4z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M75.794 66.162v.4h-6.006v-.4zm0 .81v.4h-6.006v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 56.279 63.862)"/>
     <rect width=".13" height="2.641" x="-.065" y="-3.327" fill="currentColor" ry=".04" transform="translate(57.518 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M59.779 60.162v.4l-6.756 2v-.4zm0 .81v.4l-6.756 2v-.4z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M67.046 64.162v.4l-6.506 1.19v-.4zm0 .81v.4l-6.506 1.19v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 58.514 62.862)"/>
     <rect width=".13" height="2.295" x="-.065" y="-3.981" fill="currentColor" ry=".04" transform="translate(59.754 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M50.04 60.662v.4l-6.005-.31v-.4zm0 .81v.4l-6.005-.31v-.4z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M59.779 60.162v.4l-6.756 2v-.4zm0 .81v.4l-6.756 2v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 60.5 63.362)"/>
     <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(60.5 61.08)">
 <tspan>➎</tspan>
@@ -721,20 +721,20 @@
 </text>
     <rect width=".13" height="2.802" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(60.565 64.362)"/>
     <rect width=".13" height="3.314" x="-.065" y="-2.5" fill="currentColor" ry=".04" transform="translate(61.739 73.362)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M50.04 60.662v.4l-6.005-.31v-.4zm0 .81v.4l-6.005-.31v-.4z"/>
+    <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 62.735 62.362)"/>
+    <rect width=".13" height="3.398" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(62.8 64.362)"/>
     <a xlink:href="../../schemata/prinner/" class="schema" transform="translate(65.494 57.062)">
         <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Prinner</tspan>
 </text>
     </a>
-    <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 62.735 62.362)"/>
-    <rect width=".13" height="3.398" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(62.8 64.362)"/>
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="m84.45 57.64.5 1m-32.641-1-.5 1m.5-1h32.14" class="schema"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 64.72 61.862)"/>
     <rect width=".13" height="3.539" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(64.785 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M40.944 66.852v.4h-6.006v-.4zm0 .81v.4h-6.006v-.4z"/>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="m84.45 57.64.5 1m-32.641-1-.5 1m.5-1h32.14" class="schema"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 66.956 60.862)"/>
     <rect width=".13" height="4.136" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(67.02 64.362)"/>
-    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M33.018 60.662v.4l-6.006.69v-.4zm0 .81v.4l-6.006.69v-.4zm-7.941-.31v.4H18.82v-.4zm0 .81v.4H18.82v-.4z"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M40.944 66.852v.4h-6.006v-.4zm0 .81v.4h-6.006v-.4zm-7.926-7v.4l-6.006.69v-.4zm0 .81v.4l-6.006.69v-.4z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 69.748 63.362)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 69.748 74.862)"/>
     <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(69.748 77.46)">
@@ -742,16 +742,20 @@
 </text>
     <rect width=".13" height="3.624" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(69.813 64.362)"/>
     <rect width=".13" height="3.523" x="-.065" y="-2.21" fill="currentColor" ry=".04" transform="translate(70.988 73.362)"/>
+    <text fill="currentColor" font-family="serif" font-size="1.746" transform="translate(6.191 61.288)">
+<tspan>17</tspan>
+</text>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M25.077 61.162v.4H18.82v-.4zm0 .81v.4H18.82v-.4z"/>
+    <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 71.734 63.862)"/>
+    <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(71.799 64.362)"/>
     <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(29.354 58.225)">
 <tspan>Romanesca</tspan>
 </text>
-    <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 71.734 63.862)"/>
-    <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(71.799 64.362)"/>
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="m49.58 58.802.5 1m-31.973-1-.5 1m.5-1H49.58" class="schema"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 73.969 61.362)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 73.969 72.362)"/>
     <rect width=".13" height="5.624" x="-.065" y="-2.814" fill="currentColor" ry=".04" transform="translate(74.034 64.362)"/>
     <rect width=".13" height="2.294" x="-.065" y="-3.48" fill="currentColor" ry=".04" transform="translate(75.208 73.362)"/>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="m49.58 58.802.5 1m-31.973-1-.5 1m.5-1H49.58" class="schema"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 75.704 63.862)"/>
     <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(75.77 64.362)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 77.69 63.862)"/>
@@ -770,17 +774,13 @@
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 83.645 65.362)"/>
     <rect width=".13" height="3.822" x="-.065" y="-3.009" fill="currentColor" ry=".04" transform="translate(84.885 64.362)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 88.072 63.362)"/>
-    <text fill="currentColor" font-family="serif" font-size="1.746" transform="translate(6.191 61.288)">
-<tspan>17</tspan>
-</text>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 88.072 73.862)"/>
     <rect width=".13" height="3.624" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(88.137 64.362)"/>
     <use xlink:href="#2-allegretto__reuse-8" transform="matrix(.004 0 0 -.004 86.622 63.362)"/>
     <rect width=".13" height="3.314" x="-.065" y="-3" fill="currentColor" ry=".04" transform="translate(89.311 73.362)"/>
-    <text fill="currentColor" font-family="serif" font-size="2.772" transform="translate(11.768 57.433)">
+    <text fill="currentColor" font-family="serif" font-size="2.772" transform="translate(11.768 58.292)">
 <tspan>Var. 1</tspan>
 </text>
-    <path fill="currentColor" d="M14.697 60.198c0-.175.14-.315.315-.315s.315.14.315.315-.14.315-.315.315-.315-.14-.315-.315zm.315-1.565c1.265 0 1.645 1.64 1.645 1.81 0 .04-.04.07-.08.07-.035 0-.075-.025-.085-.08-.13-.745-.735-1.325-1.48-1.325s-1.35.58-1.48 1.325c-.01.055-.05.08-.085.08-.04 0-.08-.03-.08-.07 0-.17.38-1.81 1.645-1.81z"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 90.057 62.862)"/>
     <rect width=".13" height="4.124" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(90.122 64.362)"/>
     <use xlink:href="#2-allegretto__reuse-1" transform="matrix(.004 0 0 -.004 91.792 64.362)"/>

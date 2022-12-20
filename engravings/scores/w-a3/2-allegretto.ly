@@ -36,11 +36,12 @@ upVoice = \new Voice {
         fis4 ( e8 [ \trill ) r16 c'16 \f ] |
         \grace c16 \stemUp b8 d16 g,16 \stemNeutral \grace b16 a8 g16 fis16 |
         fis4 ( g8 ) \stopGroup r8
+        \textEndMark \markup \fermata
       }
       \break
       \fine
       \repeat volta 2 { \barNumberCheck #17
-        \mark \markup { \override #'(baseline-skip . 3) \center-column { "Var. 1" \fermata } }
+        \mark "Var. 1"
         b16 \romanesca d, g b a d, a' b |
         c16 g e' d c g fis b \stopGroup |
         e,16 \prinner \mla g c e d \mso fis g b |
