@@ -3,5 +3,5 @@ module.exports = {
   js2svg: {
     pretty: true,
   },
-  plugins: ["preset-default"],
+  plugins: ["reusePaths", "preset-default"],
 };
