@@ -48,27 +48,27 @@ incipits: \
 site/content/schemata/%/diagram.svg: src/schemata/%.py
 	python $< $@
 
-site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/schemata.ly engravings/stylesheets/typography.ly
+site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/schemata.ly engravings/stylesheets/typography.ly config/schemata.js
 	lilypond \
 		--svg \
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$<
-	npx svgo $@
+	npx svgo --config $(filter %.js,$^) $@
 
-site/content/scores/%/score.svg: engravings/scores/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly src/postprocess/scores.py
+site/content/scores/%/score.svg: engravings/scores/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/score.ly engravings/stylesheets/typography.ly src/postprocess/scores.py config/score.js
 	lilypond \
 		--svg \
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$<
 	python $(filter %.py, $^) $@
-	npx svgo $@
+	npx svgo --config $(filter %.js,$^) $@
 
-site/content/scores/%/incipit.svg: engravings/scores/%/incipit.ly engravings/stylesheets/incipit.ly engravings/stylesheets/typography.ly
+site/content/scores/%/incipit.svg: engravings/scores/%/incipit.ly engravings/stylesheets/incipit.ly engravings/stylesheets/typography.ly config/incipit.js
 	lilypond \
 		--svg \
 		--output $(basename $@) \
 		--define-default=no-point-and-click \
 		$<
-	npx svgo $@
+	npx svgo --config $(filter %.js,$^) $@
