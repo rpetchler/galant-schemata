@@ -8,7 +8,7 @@ module.exports = {
     {
       name: "addClassesToSVGElement",
       params: {
-        className: "d-block mx-auto",
+        classNames: ["d-block", "mx-auto"],
       },
     },
   ],
