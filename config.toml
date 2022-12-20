@@ -14,6 +14,9 @@ sectionPagesMenu = "main"
 [[module.mounts]]
   source = "site/layouts"
   target = "layouts"
+[[module.mounts]]
+  source = "site/static"
+  target = "static"
 
 [params]
 description = "Galant schemata, scores, and data analysis."

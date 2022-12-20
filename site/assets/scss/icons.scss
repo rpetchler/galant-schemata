@@ -1,0 +1,34 @@
+$icons-font: "icons";
+
+@font-face {
+    font-family: $icons-font;
+    src: url("../../font/icons.woff?e6f4fc9e3dd2d4bf1abd3634b9e71d07") format("woff"),
+url("../../font/icons.woff2?e6f4fc9e3dd2d4bf1abd3634b9e71d07") format("woff2");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$icons-map: (
+    "volta-end": "\f101",
+    "volta-middle": "\f102",
+    "volta-start": "\f103",
+);
+
+.icon-volta-end:before {
+    content: map-get($icons-map, "volta-end");
+}
+.icon-volta-middle:before {
+    content: map-get($icons-map, "volta-middle");
+}
+.icon-volta-start:before {
+    content: map-get($icons-map, "volta-start");
+}

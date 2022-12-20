@@ -43,7 +43,7 @@ incipits: \
 	site/content/scores/w-a5/incipit.svg \
 	site/content/scores/w-a6/incipit.svg
 
-.PHONY: all diagrams schemata scores incipits
+.PHONY: all fonts diagrams schemata scores incipits site/assets/scss/icons.scss
 
 site/content/schemata/%/diagram.svg: src/schemata/%.py
 	python $< $@
@@ -72,3 +72,9 @@ site/content/scores/%/incipit.svg: engravings/scores/%/incipit.ly engravings/sty
 		--define-default=no-point-and-click \
 		$<
 	npx svgo --config $(filter %.js,$^) $@
+
+site/assets/scss/icons.scss: .fantasticonrc.js
+	mkdir -p $(dir $@)
+	npx fantasticon
+	mkdir -p site/static/font
+	mv $(addprefix $(dir $@),icons.woff icons.woff2) site/static/font
