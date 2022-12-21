@@ -10,6 +10,8 @@ global = {
   \key g \major
 }
 
+evasion = _\markup \concat { \raise #0.6 \tiny \sharp \hspace #0.2 \normalsize "➃!" }
+
 upVoice = \new Voice {
   \relative c' {
     \repeat volta 2 {
@@ -60,10 +62,10 @@ upVoice = \new Voice {
       \grace a16 g8 fis16 e e4 \mre ~ e16 \p fis g a b cis d e |
       g,2 ( fis4 \mmi \stopGroup \stopGroup ) r8 a \f |
       \override HorizontalBracket.outside-staff-priority = #460
-      \grace g16 fis8 e16 d d4 \grace b'16 a8 g16 fis \grace g16 fis8 e16 d |
-      \grace e16 d8 cis16 b b4 \grace e'16 d8 cis16 b \grace cis16 b8 a16 g |
-      fis8 a4 fis16 d e8 g4 e16 cis |
-      \grace e16 d cis d e d4 r a' \theme |
+      \grace g16 fis8 \grandCadence e16 d d4 \mdo \grace b'16 a8 g16 fis \grace g16 fis8 e16 d |
+      \grace e16 d8 cis16 b b4 \mla \grace e'16 d8 cis16 b \grace cis16 b8 a16 g |
+      fis8 a4 \mso fis16 d e8 g4 e16 cis |
+      \grace e16 d cis d e d4 \mdo \stopGroup r a' \theme |
       \grace g16 fis8 e16 d d4 ~ d16 \p e fis g a b cis d |
       d16 c b c c4 \stopGroup r c \f |
       \grace b16 a8 g16 fis fis4 r8 fis'16 \p e dis c b a |
@@ -98,7 +100,7 @@ upVoice = \new Voice {
       <d' a fis>4 \startGroup r16 d, fis a \stopGroup d \startGroup a fis d d' a fis d \stopGroup \stopGroup |
       \override HorizontalBracket.outside-staff-priority = #460
       g4 c8. \prinner \mfa  \p ( d32 c ) b8 \mmi r e8. \mla ( fis32 e ) |
-      d8 \mso r \stopGroup c8. \tweak HorizontalBracketText.text "Prinner, Evaded" \startGroup \mfa d32 c b8 \mmi  r a8. b32 a |
+      d8 \mso r \stopGroup c8. \tweak HorizontalBracketText.text "Prinner, Evaded" \startGroup \mfa d32 c b8 \mmi r a8. b32 a |
       b16 g a b \stopGroup c d e fis g a b c d8 g,,8 \f |
       d2 a'2 \trill |
       g8 d'16 e d8 g d4 \grace e16 d8 \p c16 b |
@@ -139,7 +141,7 @@ downVoice = \new Voice {
       r16 gis b d f4 r2 |
       r16 g, cis e g,4 r2 |
       fis16 d' cis d b \bla d cis d a \bso d cis d g, \bfa d' cis d |
-      fis,16 \bmi d' cis d b \bla d cis d a \bso d cis d gis, d' cis d |
+      fis,16 \bmi d' cis d b \bla d cis d a \bso d cis d gis, \evasion d' cis d |
       a4 r r2 |
       a8 d fis d a cis e cis |
       <d d,>4 r r8 d ( fis a ) |
@@ -155,10 +157,10 @@ downVoice = \new Voice {
       d,8 ( g b g ) d b' g b |
       cis,8 \bti e a e cis a' e a |
       d,8 \bdo fis a fis d a' fis a |
-      fis,8 a d a fis a d a |
-      g8 b d b g b d b |
-      a8 d fis d a cis e g |
-      <fis d>4 r8 b a g fis e |
+      fis,8 \bmi a d a fis a d a |
+      g8 \bfa b d b g b d b |
+      a8 \bso d fis d a cis e g |
+      <fis d>4 \bdo r8 b a g fis e |
       d8 fis a fis d a' fis a |
       d,8 fis a fis d a' fis a |
       dis,8 fis a fis dis fis a b |
@@ -191,7 +193,7 @@ downVoice = \new Voice {
       r16 cis, e g cis,4 r2 |
       r16 c! fis a c,4 r2 |
       b16 g' fis g e \bla g fis g d \bso g fis g c, \bfa g' fis g |
-      b,16 \bso g' fis g e \bla g fis g d \bso g fis g cis, g' fis g |
+      b,16 \bmi g' fis g e \bla g fis g d \bso g fis g cis, \evasion g' fis g |
       d4 r r2 |
       d8 g b g d fis a fis |
       g4 r r8 g b d |
