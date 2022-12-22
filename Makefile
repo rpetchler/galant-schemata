@@ -1,4 +1,4 @@
-all: diagrams schemata scores incipits
+all: diagrams schemata scores incipits site/assets/scss/icons.scss
 
 diagrams: \
 	site/content/schemata/fenaroli/diagram.svg \
@@ -43,7 +43,7 @@ incipits: \
 	site/content/scores/w-a5/incipit.svg \
 	site/content/scores/w-a6/incipit.svg
 
-.PHONY: all fonts diagrams schemata scores incipits site/assets/scss/icons.scss
+.PHONY: all fonts diagrams schemata scores incipits
 
 site/content/schemata/%/diagram.svg: src/schemata/%.py
 	python $< $@
