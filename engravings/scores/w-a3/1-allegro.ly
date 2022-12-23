@@ -32,18 +32,16 @@ upVoice = \new Voice {
       \grace d16 cis8 \tweak HorizontalBracket.outside-staff-priority #455 \passoIndietro \mti b16 a \once \tieUp a4 ~ a16 \p b cis! d e fis g e |
       a4. ( fis8 ) d4 \mdo \stopGroup \stopGroup r8 d' \f |
       d8 cis16 b b4 d8 cis16 b b8 a16 gis |
-      a8. \comma \mso ( g!16 ) g2 \mfa fis4 \mmi \stopGroup |
+      a8. \tweak HorizontalBracket.shorten-pair #'(0 . -4.5) \comma \mso ( g!16 ) g2 \mfa fis4 \mmi \stopGroup |
       e16 \converginghc fis e fis g a g a b cis b cis d8 [ r16 d, ] |
       cis16 b a b \stopGroup a4 r2 |
       r8 \grace b16 a gis a b cis d e fis g fis \grace a16 g8 \comma \mfa fis16 e |
       fis16 \mmi d cis d \stopGroup fis \ascendingHexachord d g d a' d, b' d, cis' d, d' d, \stopGroup |
       r8 a16 gis a b cis d e fis g fis \grace a16 g8 \comma \mfa fis16 e |
       fis16 \mmi d cis d \stopGroup fis \ascendingHexachord d g d a' d, b' d, cis' d, d' d, \stopGroup |
-      \revert HorizontalBracket.outside-staff-priority
-      d'4 \fonte \startGroup r16 d, f b \stopGroup d \startGroup b f d d' b f d \stopGroup |
-      <a' e cis>4 \startGroup r16 a, cis! e \stopGroup a \startGroup e cis a a' e cis a \stopGroup \stopGroup |
-      \override HorizontalBracket.outside-staff-priority = #460
-      d4 g8. \prinner \mfa \p a32 g fis8 \mmi r b8. \mla cis32 b |
+      d'4 r16 d, f b d b f d d' b f d |
+      <a' e cis>4 r16 a, cis! e a e cis a a' e cis a |
+      d4 g8. \tweak HorizontalBracket.shorten-pair #'(0 . -3) \prinner \mfa \p a32 g fis8 \mmi r b8. \mla cis32 b |
       a8 \mso r \stopGroup g8. \tweak HorizontalBracketText.text "Prinner, Evaded" \startGroup \mfa a32 g fis8 \mmi r e8. fis32 e |
       fis16 d e fis \stopGroup g a b cis d cis d cis d a fis d |
       a2 \f e'2 \trill |
@@ -95,11 +93,9 @@ upVoice = \new Voice {
       b16 g fis g b \ascendingHexachord g c g d' g, e' g, fis' g, g' g, \stopGroup |
       fis8 d16 cis d e fis g a b c b \grace d16 c8 b16 a |
       b16 g fis g b \ascendingHexachord g c g d' g, e' g, fis' g, g' g, \stopGroup |
-      \revert HorizontalBracket.outside-staff-priority
-      bes4 \fonte \startGroup r16 g bes e \stopGroup g \startGroup e bes g g' e bes g \stopGroup |
-      <d' a fis>4 \startGroup r16 d, fis a \stopGroup d \startGroup a fis d d' a fis d \stopGroup \stopGroup |
-      \override HorizontalBracket.outside-staff-priority = #460
-      g4 c8. \prinner \mfa  \p ( d32 c ) b8 \mmi r e8. \mla ( fis32 e ) |
+      bes4 r16 g bes e g e bes g g' e bes g |
+      <d' a fis>4 r16 d, fis a d a fis d d' a fis d |
+      g4 c8. \tweak HorizontalBracket.shorten-pair #'(0 . -3) \prinner \mfa  \p ( d32 c ) b8 \mmi r e8. \mla ( fis32 e ) |
       d8 \mso r \stopGroup c8. \tweak HorizontalBracketText.text "Prinner, Evaded" \startGroup \mfa d32 c b8 \mmi r a8. b32 a |
       b16 g a b \stopGroup c d e fis g a b c d8 g,,8 \f |
       d2 a'2 \trill |

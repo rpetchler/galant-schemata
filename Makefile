@@ -9,9 +9,16 @@ schemata: \
 	site/content/schemata/fenaroli/w-a1-1-56.svg \
 	site/content/schemata/fenaroli/w-a1-2-5.svg \
 	site/content/schemata/fenaroli/w-a2-1-3.svg \
+	site/content/schemata/meyer/w-a3-2-9.svg \
 	site/content/schemata/prinner/w-a2-2-42.svg \
 	site/content/schemata/prinner/w-a3-1-63.svg \
+	site/content/schemata/prinner/w-a3-1-70.svg \
+	site/content/schemata/prinner/w-a3-2-19.svg \
+	site/content/schemata/prinner/w-a3-2-3.svg \
 	site/content/schemata/prinner/w-a3-2-33.svg \
+	site/content/schemata/prinner/w-a3-2-35.svg \
+	site/content/schemata/prinner/w-a3-2-51.svg \
+	site/content/schemata/prinner/w-a3-2-67.svg \
 	site/content/schemata/quiescenza/w-a1-2-30.svg \
 	site/content/schemata/quiescenza/w-a2-1-16.svg
 
