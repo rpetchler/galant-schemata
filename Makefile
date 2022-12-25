@@ -50,10 +50,11 @@ incipits: \
 	site/content/scores/w-a5/incipit.svg \
 	site/content/scores/w-a6/incipit.svg
 
-.PHONY: all fonts diagrams schemata scores incipits
+.PHONY: all diagrams schemata scores incipits
 
-site/content/schemata/%/diagram.svg: src/schemata/%.py
+site/content/schemata/%/diagram.svg: src/schemata/%.py config/diagram.js
 	python $< $@
+	npx svgo --config $(filter %.js,$^) $@
 
 site/content/schemata/%.svg: engravings/schemata/%.ly engravings/stylesheets/annotation.ly engravings/stylesheets/schemata.ly engravings/stylesheets/typography.ly config/schemata.js
 	lilypond \
