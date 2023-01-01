@@ -3,7 +3,8 @@ all: diagrams schemata scores incipits site/assets/scss/icons.scss
 diagrams: \
 	site/content/schemata/fenaroli/diagram.svg \
 	site/content/schemata/prinner/diagram.svg \
-	site/content/schemata/quiescenza/diagram.svg
+	site/content/schemata/quiescenza/diagram.svg \
+	site/content/schemata/romanesca/diagram.svg
 
 schemata: \
 	site/content/schemata/fenaroli/w-a1-1-56.svg \
@@ -20,7 +21,9 @@ schemata: \
 	site/content/schemata/prinner/w-a3-2-51.svg \
 	site/content/schemata/prinner/w-a3-2-67.svg \
 	site/content/schemata/quiescenza/w-a1-2-30.svg \
-	site/content/schemata/quiescenza/w-a2-1-16.svg
+	site/content/schemata/quiescenza/w-a2-1-16.svg \
+	site/content/schemata/romanesca/kv-107-i-1-9.svg \
+	site/content/schemata/romanesca/w-a2-1-9.svg
 
 scores: \
 	site/content/scores/kv-107-i/1-allegro/score.svg \
