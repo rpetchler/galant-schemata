@@ -8,6 +8,7 @@ repos:
       - id: check-toml
       - id: check-yaml
       - id: end-of-file-fixer
+        exclude: site/layouts/shortcodes/sup.html
       - id: trailing-whitespace
   - repo: https://github.com/psf/black
     rev: 22.10.0
