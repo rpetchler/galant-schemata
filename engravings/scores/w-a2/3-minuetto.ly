@@ -23,8 +23,8 @@ upVoice = \new Voice {
         <a fis>4 <g e> \trill <fis d> |
         b4. g'16 b a g fis e |
         \grace d4 \lowerTrill cis2 \passoIndietro \mti \trill d8. \mdo <a fis>16 \stopGroup |
-        <a fis>4 <b g>8 <a fis> <g e> <fis d>
-        <fis d>4 \trill <e cis> r
+        <a fis>4 <b g>8 <a fis> <g e> \halfcadence <fis d>
+        \lowerTrill <fis d>4 \mmi \trill <e cis> \mre \stopGroup r
       }
       \break
       \repeat volta 2 { \barNumberCheck #9
@@ -55,10 +55,10 @@ upVoice = \new Voice {
       \fine
       \repeat volta 2 { \barNumberCheck #29
         \clef "treble" \key d \minor
-        <a'' f>4 \p \trill r r8 <a f>-. |
+        <a'' f>4 \secondTheme \p \trill r r8 <a f>-. |
         <bes g>8-. <a f>-. <g e>-.  <f d>-. <e cis>-. <f d>-. |
         <g e>4 \trill r r8 <g e> |
-        <a f>8 <g e> <f d> <e cis> <d b> <e cis> |
+        <a f>8 <g e> <f d> <e cis> <d b> <e cis> \stopGroup |
         \tuplet 3/2 { f8-. [ g-. a-. ] } \omit TupletNumber \tuplet 3/2 4 { g [ a bes ] d, [ e f ] } |
         \tuplet 3/2 4 { e8 [ d c ] bes \comma \mfa [ g' bes, ] a \mmi [ c f \stopGroup ] } |
         d8 \authenticCadence c16 bes <a f>4 <g e> \trill |
@@ -67,19 +67,19 @@ upVoice = \new Voice {
       \break
       \repeat volta 2 { \barNumberCheck #37
         \revert HorizontalBracket.outside-staff-priority
-        <c' a>4 \tweak HorizontalBracket.outside-staff-priority #460 \aprile \tweak HorizontalBracket.outside-staff-priority #455 \startGroup <f a,> \mdo <f a,> |
+        <c' a>4 \tweak HorizontalBracket.outside-staff-priority #460 \tweak HorizontalBracket.shorten-pair #'(0 . -3) \aprile \tweak HorizontalBracket.outside-staff-priority #455 \tweak HorizontalBracket.shorten-pair #'(0 . -3) \startGroup <f a,> \mdo <f a,> |
         <f a,>4 <e g,> \mti r \stopGroup |
-        c4 \tweak HorizontalBracket.outside-staff-priority #455 \startGroup <g' bes,> \mre <g bes,> |
+        c4 \tweak HorizontalBracket.outside-staff-priority #455 \tweak HorizontalBracket.shorten-pair #'(0 . -3) \startGroup <g' bes,> \mre <g bes,> |
         <g bes,>4 <f a,> \mdo r \stopGroup \stopGroup |
         \override HorizontalBracket.outside-staff-priority = #460
         c4 ~ \tuplet 3/2 4 { c8 [ c' bes ] a [ bes g ] } |
         \grace g4 fis2 \trill g4 |
         \tuplet 3/2 4 { bes8 \fallingThirds [ c a ] g [ a f ] e [ f d ] } |
         \tuplet 3/2 { cis8 [ d b \stopGroup ] } a4 r |
-        <a' f>4 \trill r r8 <a f> |
+        <a' f>4 \secondTheme \trill r r8 <a f> |
         <bes g>8 <a f> <g e> <f d> <e cis> <f d> |
         <g e>4 \trill r r8 <g e> |
-        <a f>8 <g e> <f d> <e cis> <d b> <e cis> |
+        <a f>8 <g e> <f d> <e cis> <d b> <e cis> \stopGroup |
         \tuplet 3/2 4 { f8 [ g a ] g [ a bes ] e, [ f g ] } |
         \tuplet 3/2 4 { cis,8 [ d e ] g, \comma \mfa [ e' g, ] f \mmi [ a d \stopGroup ] } |
         \grace c16 bes8 \tweak HorizontalBracket.outside-staff-priority #455 \tweak HorizontalBracket.shorten-pair #'(-4.5 . 0) \cudworth a16 g <f d>4 <e cis> \trill |
@@ -99,8 +99,8 @@ downVoice = \new Voice {
       e4 a, d |
       g,4 g' <b g> |
       a4 g \bfa fis \bmi |
-      r4 g d |
-      a4 a'8 g fis e
+      r4 g d \bdo |
+      a4 \bso a'8 \bso g fis e
     }
     \repeat volta 2 { \barNumberCheck #9
       d4 d' b |
