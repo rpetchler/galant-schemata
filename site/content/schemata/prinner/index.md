@@ -12,6 +12,7 @@ thus the schemata overlap.
   figure
   "w-a3-2-33.svg"
   "J. C. Bach, Opus 5, no. 3, mvt. 2, Allegretto, m. 33 (London, 1766)"
+  "../../scores/w-a3/#2-allegretto"
 >}}
 
 The Prinner as riposte to a Romanesca in the galant style. The D-sharp in the
@@ -24,6 +25,7 @@ second beat of the Prinner is likely an error in the original score (Welcker
   figure
   "w-a3-1-63.svg"
   "J. C. Bach, Opus 5, no. 3, mvt. 1, Allegro, m. 63 (London, 1766)"
+  "../../scores/w-a3/#1-allegro"
 >}}
 
 ## Variants
@@ -36,4 +38,5 @@ point on ➀, with ➍–➌ in the one part sounding against ➏–➎ in the o
   figure
   "w-a2-2-42.svg"
   "J. C. Bach, Opus 5, no. 2, mvt. 2, Andante di molto, m. 42 (London, 1766)"
+  "../../scores/w-a2/#2-andante-di-molto"
 >}}

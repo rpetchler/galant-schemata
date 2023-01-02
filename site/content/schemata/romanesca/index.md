@@ -11,6 +11,7 @@ A Romanesca in the galant style with a Prinner riposte. See also Ex. 2.23 in
   figure
   "../prinner/w-a3-1-63.svg"
   "J. C. Bach, Opus 5, no. 3, mvt. 1, Allegro, m. 63 (London, 1766)"
+  "../../scores/w-a3/#1-allegro"
 >}}
 
 ## Variants
@@ -27,6 +28,7 @@ dominant. Because of this modulation, the fourth event lacks minor sonorities.
   figure
   "w-a2-1-9.svg"
   "J. C. Bach, Opus 5, no. 2, mvt. 1, Allegro di molto, m. 9 (London, 1766)"
+  "../../scores/w-a2/#1-allegro-di-molto"
 >}}
 
 A complete leaping Romanesca. The keyboard plays 5/3 sonorities in the
@@ -36,6 +38,7 @@ metrically weak events.
   figure
   "kv-107-i-1-9.svg"
   "W. A. Mozart, KV 107 I, mvt. 1, Allegro, m. 9"
+  "../../scores/kv-107-i/#1-allegro"
 >}}
 
 *A stepwise type, in which the bass descends entirely by step, with alternating
@@ -49,4 +52,5 @@ the schemata overlap.
   figure
   "../prinner/w-a3-2-33.svg"
   "J. C. Bach, Opus 5, no. 3, mvt. 2, Allegretto, m. 33 (London, 1766)"
+  "../../scores/w-a3/#2-allegretto"
 >}}

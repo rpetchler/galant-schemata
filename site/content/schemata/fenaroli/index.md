@@ -18,6 +18,7 @@ A repeated, pre-cadential Fenaroli.
   figure
   "w-a1-1-56.svg"
   "J. C. Bach, Opus 5, no. 1, mvt. 1, Allegretto, m. 56 (London, 1766)"
+  "../../scores/w-a1/#1-allegretto"
 >}}
 
 The Fenaroli as a riposte to an opening theme. It lacks a pedal point on ➄ but
@@ -28,6 +29,7 @@ embedded Comma reinforces a pre-cadential effect.
   figure
   "w-a1-2-5.svg"
   "J. C. Bach, Opus 5, no. 1, mvt. 2, Tempo di Minuetto, m. 5 (London, 1766)"
+  "../../scores/w-a1/#2-tempo-di-minuetto"
 >}}
 
 The Fenaroli as a riposte to an opening theme. This schema is repeated in the
@@ -37,4 +39,5 @@ score and features an internal pedal point on ➄.
   figure
   "w-a2-1-3.svg"
   "J. C. Bach, Opus 5, no. 2, mvt. 1, Allegro di molto, m. 3 (London, 1766)"
+  "../../scores/w-a2/#1-allegro-di-molto"
 >}}
