@@ -4,14 +4,14 @@
 \include "../../stylesheets/typography.ly"
 \score {
   \new PianoStaff <<
-    \new Staff \relative d'' {
+    \new Staff \relative c' {
       \clef "treble" \time 2/4 \key bes \major
-      a8 f'16 \fenaroli a, ^\bti c bes ^\bdo d c ^\bre |
+      a'8 f'16 \fenaroli a, ^\bti c bes ^\bdo d c ^\bre |
       es16 d ^\bmi \stopGroup bes' \converginghc f \grace f es d \grace d c bes |
       a8 \stopGroup f'16 \fenaroli a, ^\bti c bes ^\bdo d c ^\bre |
       es16 d ^\bmi \stopGroup bes' \converginghc f \grace f es d \grace d c bes |
     }
-    \new Staff \relative bes {
+    \new Staff \relative c {
       \clef "bass" \time 2/4 \key bes \major
       f8 [ es' _\mfa d _\mmi a _\mti ] |
       bes8 _\mdo [ d, \bmi es \bfa e \bfais ] |

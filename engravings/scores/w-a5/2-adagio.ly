@@ -11,9 +11,9 @@ global = {
 }
 
 upVoice = \new Voice {
-  \relative e'' {
+  \relative c' {
     \clef "treble"
-    e2. \trill ~ |
+    e'2. \trill ~ |
     e2. \trill ~ |
     e8. a16 \grace { gis a b } a4. gis16 fis |
     \grace { e8 } d4 \trill cis r8 cis |
@@ -73,9 +73,9 @@ upVoice = \new Voice {
 }
 
 downVoice = \new Voice {
-  \relative cis' {
+  \relative c {
     \clef "treble"
-    \override TupletBracket.bracket-visibility = ##f \omit TupletNumber \tuplet 3/2 4 { <cis a>8 <e cis> <d b> <cis a> <e cis> <d b> <cis a> <a' e> <e cis> } |
+    \override TupletBracket.bracket-visibility = ##f \omit TupletNumber \tuplet 3/2 4 { <cis' a>8 <e cis> <d b> <cis a> <e cis> <d b> <cis a> <a' e> <e cis> } |
     \tuplet 3/2 4 { <d b>8 <d b> <cis a> <b gis> <d b> <cis a> <b gis> <b' d,> <gis b,> } |
     \clef "bass" \tuplet 3/2 4 { a,8 cis e a, cis e a, d fis } |
     \tuplet 3/2 4 { gis,8 b e a, cis e cis, e a } |

@@ -11,9 +11,9 @@ global = {
 }
 
 upVoice = \new Voice {
-  \relative g' {
+  \relative c' {
     \clef "treble"
-    g4 ^\markup \fontsize #1 \bold "Rondeaux" ( f es ) |
+    g'4 ^\markup \fontsize #1 \bold "Rondeaux" ( f es ) |
     c'2 ~ c8. bes16 |
     \grace bes8 as4 \grace as8 g4 \grace g8 f4 |
     \grace { g'16 as bes } as2 g8. \trill f16 |
@@ -86,7 +86,7 @@ upVoice = \new Voice {
 }
 
 downVoice = \new Voice {
-  \relative es {
+  \relative c {
     \clef "bass"
     es8 _\markup \italic "legati" ( bes' ) f ( bes ) g ( bes ) |
     as8 ( c es c as g ) |

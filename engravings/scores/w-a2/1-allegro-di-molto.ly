@@ -11,10 +11,10 @@ global = {
 }
 
 upVoice = \new Voice {
-  \relative d''' {
+  \relative c' {
     \repeat volta 2 {
       \clef "treble"
-      <d a fis d>4 \triadicDescent <d a fis d> <d a fis d> \grace { cis32 d e } d8 cis16 b |
+      <d'' a fis d>4 \triadicDescent <d a fis d> <d a fis d> \grace { cis32 d e } d8 cis16 b |
       a4 <a fis d a> <a fis d a> \grace { fis32 g a } g8 fis16 e |
       d8 \stopGroup r d \p r cis8. ^\bti \fenaroli ( d32 e ) d8 ^\bdo r |
       e8. ^\bre ( fis32 g ) fis8 ^\bmi r \stopGroup g r \grace { d'16 } cis8 b16 cis |
@@ -134,10 +134,10 @@ upVoice = \new Voice {
 }
 
 downVoice = \new Voice {
-  \relative d' {
+  \relative c {
     \repeat volta 2 {
       \clef "bass"
-      <d a fis d>4 <d a fis d> <d a fis d> r |
+      <d' a fis d>4 <d a fis d> <d a fis d> r |
       <d a fis d>4 <d a fis d> <d a fis d> r |
       d,8 a' fis a g _\mfa a fis _\mmi a |
       cis,8 _\mti a' d, _\mdo a' e a a, a' |

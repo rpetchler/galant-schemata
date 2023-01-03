@@ -10,7 +10,7 @@ global = {
 }
 
 upVoice = \new Voice {
-  \relative d' {
+  \relative c' {
     #(define (format-dal-segno-text-formatter context return-count marks) "Da Capo il Maggiore")
     \set Score.dalSegnoTextFormatter = #format-dal-segno-text-formatter
     \set Score.fineText = \markup {}
@@ -90,7 +90,7 @@ upVoice = \new Voice {
 }
 
 downVoice = \new Voice {
-  \relative d {
+  \relative c {
     \repeat volta 2 {
       \clef "bass" \key d \major
       d4 \bdo cis \bti a |

@@ -11,7 +11,7 @@ global = {
 }
 
 upVoice = \new Voice {
-  \relative e' {
+  \relative c' {
     \repeat volta 2 {
       \clef "treble"
       r16 e [ r b r gis r b ] r e [ r b r e r fis ] |
@@ -120,7 +120,7 @@ upVoice = \new Voice {
 }
 
 downVoice = \new Voice {
-  \relative e {
+  \relative c {
     \repeat volta 2 {
       \clef "bass"
       e8 b gis b e b e fis |

@@ -11,10 +11,10 @@ global = {
 }
 
 upVoice = \new Voice {
-  \relative g' {
+  \relative c' {
     \repeat volta 2 {
       \clef "treble"
-      \partial 8 g8 |
+      \partial 8 g'8 |
       \stemDown d'8. \romanesca [ ( e16 d8 ) ] d |
       e8. \trill [ fis16 g8 ] r16 e \stopGroup |
       e16 ( d ) c \trill b \stemNeutral b a g \trill fis |
@@ -78,11 +78,11 @@ upVoice = \new Voice {
 }
 
 downVoice = \new Voice {
-  \relative g {
+  \relative c {
     \repeat volta 2 {
       \clef "bass"
       \partial 8 r8 |
-      g16-. \bdo b-. d-. g,-. fis-. \bti a-. d-. fis,-. |
+      g'16-. \bdo b-. d-. g,-. fis-. \bti a-. d-. fis,-. |
       e16 \bla g b e, c \bfa e g c, |
       b8 [ e c d ] |
       r8 g [ b <b g> ] |

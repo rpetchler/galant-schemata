@@ -11,10 +11,10 @@ global = {
 }
 
 upVoice = \new Voice {
-  \relative f'' {
+  \relative c' {
     \repeat volta 2 {
       \clef "treble"
-      <f d>4 \theme ~ \tuplet 3/2 4 { f8 d f bes d bes } \omit TupletBracket \omit TupletNumber |
+      <f' d>4 \theme ~ \tuplet 3/2 4 { f8 d f bes d bes } \omit TupletBracket \omit TupletNumber |
       <f d>4 ~ \tuplet 3/2 4 { f8 d f bes d bes \stopGroup } |
       f4 \trill \tuplet 3/2 4 { g8 \converging f es d c bes } |
       a8. \trill ( bes32 c ) bes4 \stopGroup r |
@@ -97,10 +97,10 @@ upVoice = \new Voice {
 }
 
 downVoice = \new Voice {
-  \relative bes {
+  \relative c {
     \repeat volta 2 {
       \clef "bass"
-      bes4 bes, r |
+      bes'4 bes, r |
       bes'4 bes, r |
       bes'4 es, \bfa e \bfais |
       f4 \bso bes, \bdo r |

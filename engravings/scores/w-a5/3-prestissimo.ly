@@ -11,7 +11,7 @@ global = {
 }
 
 upVoice = \new Voice {
-  \relative e' {
+  \relative c' {
     \repeat volta 2 {
       \clef "treble"
       \partial 16 * 4 e16 b gis' e |
@@ -124,11 +124,11 @@ upVoice = \new Voice {
 }
 
 downVoice = \new Voice {
-  \relative e, {
+  \relative c {
     \repeat volta 2 {
       \clef "bass" \time 2/4 \key e \major
       \partial 16 * 4 r4 |
-      e16 e' gis e e, e' gis e |
+      e,16 e' gis e e, e' gis e |
       e,16 e' gis e fis, fis' a fis |
       gis,16 gis' b gis a, a' cis a |
       b,4 r |
