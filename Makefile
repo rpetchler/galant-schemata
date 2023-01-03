@@ -1,12 +1,15 @@
 all: diagrams schemata scores incipits site/assets/scss/icons.scss
 
 diagrams: \
+	site/content/schemata/do-re-mi/diagram.svg \
 	site/content/schemata/fenaroli/diagram.svg \
 	site/content/schemata/prinner/diagram.svg \
 	site/content/schemata/quiescenza/diagram.svg \
 	site/content/schemata/romanesca/diagram.svg
 
 schemata: \
+	site/content/schemata/do-re-mi/w-a2-3-1.svg \
+	site/content/schemata/do-re-mi/w-a3-1-1.svg \
 	site/content/schemata/fenaroli/w-a1-1-56.svg \
 	site/content/schemata/fenaroli/w-a1-2-5.svg \
 	site/content/schemata/fenaroli/w-a2-1-3.svg \
