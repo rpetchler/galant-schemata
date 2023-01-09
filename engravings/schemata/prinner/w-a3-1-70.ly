@@ -12,6 +12,7 @@ evasion = _\markup \concat { \raise #0.6 \tiny \sharp \hspace #0.2 \normalsize "
 
 \score {
   \new PianoStaff <<
+    \set Score.currentBarNumber = #70
     \new Staff = "up" \relative c' {
       \clef "treble" \time 4/4 \key g \major
       bes'4 ^\markup \concat { "vi" \super "o7" } r16 g bes e g e bes g g' e bes g |

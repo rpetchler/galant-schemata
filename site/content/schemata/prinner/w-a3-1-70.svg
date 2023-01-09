@@ -42,6 +42,9 @@
     <use xlink:href="#reuse-3" transform="matrix(.004 0 0 -.004 14.517 20.368)"/>
     <rect width=".13" height="3.147" x="-.065" y=".186" fill="currentColor" ry=".04" transform="translate(18.852 11.368)"/>
     <path fill="currentColor" d="m17.745 11.204-.004.264v.044c0 .088.004.176.016.264.18-.152.372-.32.372-.556 0-.132-.056-.268-.172-.268-.124 0-.208.12-.212.252zm-.168.716-.048-2.38c.032-.02.072-.032.108-.032s.076.012.108.032l-.028 1.38a.577.577 0 0 1 .364-.136c.208 0 .356.192.356.408 0 .32-.344.468-.588.676-.06.052-.096.152-.18.152-.052 0-.092-.044-.092-.1z"/>
+    <text fill="currentColor" font-family="serif" font-size="1.746" transform="translate(6.191 8.294)">
+<tspan>70</tspan>
+</text>
     <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M123.563 9.168v.4l-9.284 1.19v-.4zm0 .81v.4l-9.284 1.19v-.4z"/>
     <use xlink:href="#reuse-0" transform="matrix(.004 0 0 -.004 23.9 20.868)"/>
     <rect width=".13" height="2.306" x="-.065" y=".686" fill="currentColor" ry=".04" transform="translate(23.965 20.368)"/>
@@ -142,8 +145,8 @@
     <use xlink:href="#reuse-2" transform="matrix(.004 0 0 -.004 12.267 30.782)"/>
     <use xlink:href="#reuse-5" transform="matrix(.004 0 0 -.004 8.767 40.782)"/>
     <use xlink:href="#reuse-2" transform="matrix(.004 0 0 -.004 12.267 40.782)"/>
-    <text fill="currentColor" font-family="serif" font-size="1.746" transform="translate(7.079 29.712)">
-<tspan>3</tspan>
+    <text fill="currentColor" font-family="serif" font-size="1.746" transform="translate(6.191 29.708)">
+<tspan>72</tspan>
 </text>
     <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M145.423 29.582v.4h-9.92v-.4zm0 .81v.4h-9.92v-.4z"/>
     <use xlink:href="#reuse-0" transform="matrix(.004 0 0 -.004 15.867 33.782)"/>
