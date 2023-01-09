@@ -43,7 +43,9 @@ scores: \
 	site/content/scores/w-a4/2-allegretto/score.svg \
 	site/content/scores/w-a5/1-allegro-assai/score.svg \
 	site/content/scores/w-a5/2-adagio/score.svg \
-	site/content/scores/w-a5/3-prestissimo/score.svg
+	site/content/scores/w-a5/3-prestissimo/score.svg \
+	site/content/scores/w-a7/1-allegro/score.svg \
+	site/content/scores/w-a7/2-minuetto-con-variatione/score.svg
 
 incipits: \
 	site/content/scores/kv-107-i/incipit.svg \
@@ -54,7 +56,8 @@ incipits: \
 	site/content/scores/w-a3/incipit.svg \
 	site/content/scores/w-a4/incipit.svg \
 	site/content/scores/w-a5/incipit.svg \
-	site/content/scores/w-a6/incipit.svg
+	site/content/scores/w-a6/incipit.svg \
+	site/content/scores/w-a7/incipit.svg
 
 .PHONY: all diagrams schemata scores incipits
 

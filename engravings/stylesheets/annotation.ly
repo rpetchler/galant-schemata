@@ -81,3 +81,4 @@ secondTheme        = -\tweak HorizontalBracketText.text "Second Theme"        \s
 theme              = -\tweak HorizontalBracketText.text "Theme"               \startGroup
 triadicAscent      = -\tweak HorizontalBracketText.text "Triadic Ascent"      \startGroup
 triadicDescent     = -\tweak HorizontalBracketText.text "Triadic Descent"     \startGroup
+triadicFlourish    = -\tweak HorizontalBracketText.text "Triadic Flourish"    \startGroup
