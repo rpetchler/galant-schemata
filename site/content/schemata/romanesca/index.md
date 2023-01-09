@@ -14,6 +14,15 @@ A Romanesca in the galant style with a Prinner riposte. See also Ex. 2.23 in
   "../../scores/w-a3/#1-allegro"
 >}}
 
+Repeated Romanescas in the galant style.
+
+{{<
+  figure
+  "w-a7-1-7.svg"
+  "J. C. Bach, Opus 17, no. 1, mvt. 1, Allegro, m. 7 (Paris, 1773–74)"
+  "../../scores/w-a7/#1-allegro"
+>}}
+
 ## Variants
 
 *A leaping type, in which the bass alternately leaps down a fourth and steps up

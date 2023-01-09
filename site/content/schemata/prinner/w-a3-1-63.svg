@@ -153,6 +153,9 @@
 </text>
     <rect width=".13" height="2.12" x="-.065" y="3.686" fill="currentColor" ry=".04" transform="translate(71.118 17.278)"/>
     <use xlink:href="#reuse-0" transform="matrix(.004 0 0 -.004 74.73 14.778)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(74.73 10.658)">
+<tspan>➊</tspan>
+</text>
     <use xlink:href="#reuse-0" transform="matrix(.004 0 0 -.004 74.73 19.778)"/>
     <rect width=".13" height="2.821" x="-.065" y="-5.508" fill="currentColor" ry=".04" transform="translate(75.97 17.278)"/>
     <rect width=".13" height="2.905" x="-.065" y="2.686" fill="currentColor" ry=".04" transform="translate(74.795 17.278)"/>

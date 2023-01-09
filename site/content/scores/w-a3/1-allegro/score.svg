@@ -3969,6 +3969,9 @@
     <rect width=".13" height="2.12" x="-.065" y="3.686" fill="currentColor" ry=".04" transform="translate(143.84 394.17)"/>
     <rect width=".13" height="3.504" x="-.065" y="-6.19" fill="currentColor" ry=".04" transform="translate(155.095 394.17)"/>
     <use xlink:href="#1-allegro__reuse-6" transform="matrix(.004 0 0 -.004 147.109 391.67)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(147.109 387.54)">
+<tspan>➊</tspan>
+</text>
     <use xlink:href="#1-allegro__reuse-6" transform="matrix(.004 0 0 -.004 147.109 396.67)"/>
     <rect width=".13" height="2.822" x="-.065" y="-5.508" fill="currentColor" ry=".04" transform="translate(148.348 394.17)"/>
     <rect width=".13" height="2.909" x="-.065" y="2.686" fill="currentColor" ry=".04" transform="translate(147.174 394.17)"/>

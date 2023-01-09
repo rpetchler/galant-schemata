@@ -1,0 +1,403 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1122.52" height="385.776" version="1.2" viewBox="0 0 169.009 58.084">
+    <defs>
+        <path id="reuse-0" fill="currentColor" d="M250 262c116 0 176-106 176-163 0-40-30-72-67-72-31 0-75 25-75 75 0 38 27 77 72 77 4 0 9 0 14-1-28 37-72 59-120 59-106 0-113-73-113-186V-51c0-113 7-187 113-187 80 0 139 70 158 151 2 7 7 10 12 10 6 0 13-4 13-12 0-22-50-174-183-174C191-263 0-244 0 0c0 62 18 262 250 262z"/>
+        <path id="reuse-1" fill="currentColor" d="M218 136c66 0 108-36 108-89 0-89-113-183-218-183C42-136 0-100 0-47c0 89 113 183 218 183z"/>
+        <path id="reuse-2" fill="currentColor" d="M557-125c0 28 23 51 51 51s51-23 51-51-23-51-51-51-51 23-51 51zm0 250c0 28 23 51 51 51s51-23 51-51-23-51-51-51-51 23-51 51zM232 263c172 0 293-88 293-251 0-263-263-414-516-521-3-3-6-4-9-4-7 0-13 6-13 13 0 3 1 6 4 9C193-373 403-226 403 2c0 120-63 235-171 235-74 0-129-54-154-126 11 5 22 8 34 8 55 0 100-45 100-100 0-58-44-106-100-106C52-87 0-40 0 19c0 133 102 244 232 244z"/>
+        <path id="reuse-3" fill="currentColor" d="M0 119c0 8 5 15 13 18l46 17v158c0 10 8 19 18 19s19-9 19-19V167l83 31v158c0 10 9 19 19 19s18-9 18-19V211l32 12c2 1 5 1 7 1 11 0 20-9 20-20v-60c0-8-5-16-13-19l-46-16V-51l32 11c2 1 5 1 7 1 11 0 20-9 20-20v-60c0-8-5-15-13-18l-46-17v-158c0-10-8-19-18-19s-19 9-19 19v145l-83-31v-158c0-10-9-19-19-19s-18 9-18 19v145l-32-12c-2-1-5-1-7-1-11 0-20 9-20 20v60c0 8 5 16 13 19l46 16V51L27 40c-2-1-5-1-7-1C9 39 0 48 0 59v60zm179-24L96 65V-95l83 30V95z"/>
+        <path id="reuse-4" fill="currentColor" d="M-6 78c0 59 124 83 124 182 0 24-8 49-25 69l-35 42c-3 3-4 7-4 10 0 9 9 15 17 15 4 0 8-1 11-5l151-180c7-9 10-17 10-25 0-59-124-83-124-182 0-24 7-49 24-69l84-99c3-3 4-7 4-10 0-9-8-16-16-16s-45 44-109 44c-16 0-53 0-53-67 0-35 11-74 28-94 7-8-5-19-12-11-45 54-92 148-92 202 0 41 27 42 40 42 33 0 78-13 119-31L4 53C-3 62-6 70-6 78z"/>
+        <path id="reuse-5" fill="currentColor" d="M208 139c69 0 117-40 117-99 0-91-107-179-209-179C47-139 0-99 0-40c0 91 106 179 208 179z"/>
+        <path id="reuse-6" fill="currentColor" d="M0-212v-213 213c0-114 85-201 146-295 4 13 6 26 6 40 0 94-87 188-152 255zm115-636c0 11 43 74 43 169S68-491 0-425v-75h-21V0H0c0-177 201-290 201-467 0-33-9-66-23-96 18-36 29-74 29-116 0-63-15-125-41-182-5-10-14-13-23-13-14 0-28 10-28 26z"/>
+        <path id="reuse-7" fill="currentColor" d="M266-635h-6c-108 0-195 88-195 197 0 58 53 103 112 103 54 0 95-47 95-103 0-52-43-95-95-95-11 0-21 2-31 6 26-39 68-65 117-65h4zm195 432c68 24 113 90 113 164 0 90-66 179-173 190 19-89 48-242 60-354zM74 28c0-145 141-247 264-247 1 0 47 0 82 6-7 64-29 203-63 364-79-8-124-61-124-119 0-44 25-91 81-123 5-5 7-10 7-15 0-11-10-22-22-22-15 0-126 62-126 187 0 88 58 174 160 197-14 58-29 117-46 175C180 310 74 188 74 28zm176 525c-29 96-52 170-52 346 0 115 55 224 149 292 6 5 14 5 20 0 68-80 133-245 133-358 0-143-86-255-180-364 21-68 39-138 56-207 2 0 7 1 13 1 155 0 256-128 256-261 0-113-74-212-180-246 3-35 5-70 5-105 0-19-1-39-2-58-7-119-88-225-202-228l1 43c93 2 153 92 159 191 1 18 2 37 2 55 0 31-1 61-4 92-5-1-44-8-89-8C142-262 2-82 2 112c0 177 131 306 248 441zm178 363c0 34 1 66-20 129-99-48-162-149-162-259 0-52 12-115 36-194 80 97 146 198 146 324z"/>
+        <path id="reuse-8" fill="currentColor" d="M115-723c0 12 43 85 43 193 0 101-90 205-158 280h-21V0H0c0-196 207-334 207-530 0-71-15-140-41-206-5-10-14-13-23-13-14 0-28 10-28 26z"/>
+        <path id="reuse-9" fill="currentColor" d="M0 0c0 31 25 56 56 56s56-25 56-56-25-56-56-56S0-31 0 0z"/>
+        <path id="reuse-10" fill="currentColor" d="M0 0h-16v250H0V0zm0 0v250c97 59 224 148 224 259 0 57-15 112-40 163-3 16 10 27 23 27 7 0 15-3 20-11 25-56 40-117 40-179C267 306 0 203 0 0z"/>
+        <path id="reuse-11" fill="currentColor" d="M314 65c0 23-19 41-42 41C233 106 68-4 41-37c-7-8-10-18-10-28 0-23 19-41 42-41 39 0 203 110 230 143 7 8 11 18 11 28zm-52 71c41 0 82-14 82-71 0-26-16-112-74-151-25-17-87-50-187-50-41 0-83 14-83 71C0-39 16 47 74 86c25 17 88 50 188 50z"/>
+        <path id="reuse-12" fill="currentColor" d="M-81-366C-81-111-213-3-213 0c0 18 132 96 132 366 0 261-108 489-108 780 0 189 45 366 177 501 15 15 39-9 24-24-99-99-129-225-129-360 0-255 102-480 102-765 0-186-45-363-174-498C-60-135-15-312-15-498c0-285-102-510-102-765 0-135 30-261 129-360 15-15-9-39-24-24-132 135-177 312-177 501 0 291 108 519 108 780z"/>
+    </defs>
+    <style>
+        tspan{white-space:pre}
+    </style>
+    <rect width="1.377" height=".2" x="134.374" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 11.031)"/>
+    <rect width="1.377" height=".2" x="105.436" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 11.031)"/>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M8.017 16.031h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976"/>
+    <rect width=".19" height="4.95" y="11.098" fill="currentColor" ry="0" transform="translate(160.853 4.983)"/>
+    <rect width="1.956" height=".2" x="76.704" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 20.031)"/>
+    <rect width="1.956" height=".2" x="68.387" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 20.031)"/>
+    <rect width="1.956" height=".2" x="58.982" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 20.031)"/>
+    <rect width="1.956" height=".2" x="51.015" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 20.031)"/>
+    <rect width="1.956" height=".2" x="39.288" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 20.031)"/>
+    <rect width="1.956" height=".2" x="30.091" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 20.031)"/>
+    <rect width="1.956" height=".2" x="22.124" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 20.031)"/>
+    <rect width="1.956" height=".2" x="14.157" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 20.031)"/>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M8.017 25.031h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976"/>
+    <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(160.853 23.031)"/>
+    <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(160.853 14.031)"/>
+    <rect width=".19" height="4.95" y="11.098" fill="currentColor" ry="0" transform="translate(124.285 4.983)"/>
+    <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(124.285 23.031)"/>
+    <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(124.285 14.031)"/>
+    <rect width=".19" height="4.95" y="11.098" fill="currentColor" ry="0" transform="translate(87.984 4.983)"/>
+    <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(87.984 23.031)"/>
+    <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(87.984 14.031)"/>
+    <rect width=".19" height="4.95" y="11.098" fill="currentColor" ry="0" transform="translate(52.176 4.983)"/>
+    <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(52.176 23.031)"/>
+    <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(52.176 14.031)"/>
+    <use xlink:href="#reuse-0" transform="matrix(.004 0 0 -.004 14.517 14.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 18.217 21.531)"/>
+    <use xlink:href="#reuse-2" transform="matrix(.004 0 0 -.004 8.767 22.031)"/>
+    <use xlink:href="#reuse-3" transform="matrix(.004 0 0 -.004 12.267 22.031)"/>
+    <use xlink:href="#reuse-0" transform="matrix(.004 0 0 -.004 14.517 23.031)"/>
+    <rect width=".13" height="3.147" x="-.065" y=".186" fill="currentColor" ry=".04" transform="translate(18.282 14.031)"/>
+    <rect width=".13" height="2.31" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(18.282 23.031)"/>
+    <text fill="currentColor" font-family="serif" font-size="1.746" transform="translate(7.079 10.957)">
+<tspan>7</tspan>
+</text>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M157.196 24.831v.4l-12.6.81v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 22.45 19.531)"/>
+    <rect width=".13" height="4.032" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(22.515 23.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M153.648 14.911v.4l-1.085-.08v-.4zm1.608.92v.4l-2.694-.19v-.4z"/>
+    <use xlink:href="#reuse-4" transform="matrix(.004 0 0 -.004 26.184 14.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 26.184 20.531)"/>
+    <rect width=".13" height="2.786" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(26.249 23.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M139.474 24.831v.4l-12.25.81v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 30.417 19.531)"/>
+    <rect width=".13" height="3.508" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(30.482 23.031)"/>
+    <use xlink:href="#reuse-4" transform="matrix(.004 0 0 -.004 34.15 14.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 34.15 22.031)"/>
+    <rect width=".13" height="2.62" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(34.215 23.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M119.816 25.641v.4l-13.48 1v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 38.384 19.531)"/>
+    <rect width=".13" height="4.867" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(38.449 23.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M122.46 13.831v.4h-2.694v-.4zm0 .81v.4h-6.802v-.4z"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 41.487 12.531)"/>
+    <rect width=".13" height="2.486" x="-.065" y="-4.1" fill="currentColor" ry=".04" transform="translate(42.34 14.031)"/>
+    <use xlink:href="#reuse-6" transform="matrix(.0028 0 0 -.0028 42.405 9.971)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 43.472 13.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 43.472 21.031)"/>
+    <rect width=".13" height="3.624" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(43.537 14.031)"/>
+    <rect width=".13" height="3.063" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(43.537 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 47.58 13.531)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 47.58 19.531)"/>
+    <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(47.646 14.031)"/>
+    <rect width=".13" height="4.318" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(47.646 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 50.224 13.031)"/>
+    <rect width=".13" height="3.624" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(50.29 14.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M102.652 24.021v.4l-12.25.81v-.4zm-17.565-.19v.4l-12.6.81v-.4z"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 53.09 13.531)"/>
+    <use xlink:href="#reuse-3" transform="matrix(.004 0 0 -.004 12.267 12.031)"/>
+    <use xlink:href="#reuse-7" transform="matrix(.004 0 0 -.004 8.767 15.031)"/>
+    <rect width=".13" height="2.486" x="-.065" y="-3.1" fill="currentColor" ry=".04" transform="translate(53.943 14.031)"/>
+    <use xlink:href="#reuse-8" transform="matrix(.0028 0 0 -.0028 54.008 10.971)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 18.217 14.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M81.539 15.99v.4l-1.085-.159v-.4zm1.608 1.031v.4l-2.693-.38v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 55.075 14.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 55.075 21.531)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(55.075 27.13)">
+<tspan>➀</tspan>
+</text>
+    <use xlink:href="#reuse-9" transform="matrix(.004 0 0 -.004 56.829 13.531)"/>
+    <rect width=".13" height="3.147" x="-.065" y=".186" fill="currentColor" ry=".04" transform="translate(55.14 14.031)"/>
+    <rect width=".13" height="2.31" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(55.14 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 59.308 19.531)"/>
+    <rect width=".13" height="4.032" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(59.373 23.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M67.365 23.021v.4l-12.25.81v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 63.042 20.531)"/>
+    <rect width=".13" height="2.786" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(63.107 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 67.275 13.531)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 67.275 19.531)"/>
+    <rect width=".13" height="3.314" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(67.34 14.031)"/>
+    <use xlink:href="#reuse-10" transform="matrix(.004 0 0 -.004 67.405 16.991)"/>
+    <rect width=".13" height="3.508" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(67.34 23.031)"/>
+    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(84.885 6.281)">
+<tspan>Romanesca</tspan>
+</text>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 70.462 12.531)"/>
+    <rect width=".13" height="2.286" x="-.065" y="-3.9" fill="currentColor" ry=".04" transform="translate(71.315 14.031)"/>
+    <use xlink:href="#reuse-8" transform="matrix(.0028 0 0 -.0028 71.38 10.171)"/>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="m123.174 6.858.5 1m-68.099-1-.5 1m.5-1h67.599" class="schema"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 72.447 13.031)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(72.447 11.244)">
+<tspan>➎</tspan>
+</text>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 72.447 22.031)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(72.447 27.13)">
+<tspan>➆</tspan>
+</text>
+    <rect width=".13" height="3.314" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(72.512 14.031)"/>
+    <rect width=".13" height="2.62" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(72.512 23.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M47.67 23.831v.4l-13.48.81v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 76.68 19.531)"/>
+    <rect width=".13" height="4.849" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(76.745 23.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M50.314 15.831v.4h-2.693v-.4zm0 .81v.4h-6.802v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 80.414 13.531)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 80.414 21.031)"/>
+    <rect width=".13" height="3.133" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(80.479 14.031)"/>
+    <rect width=".13" height="3.111" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(80.479 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 83.057 14.031)"/>
+    <use xlink:href="#reuse-9" transform="matrix(.004 0 0 -.004 84.812 13.531)"/>
+    <rect width=".13" height="2.995" x="-.065" y=".186" fill="currentColor" ry=".04" transform="translate(83.122 14.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 84.997 19.531)"/>
+    <rect width=".13" height="4.318" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(85.062 23.031)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M30.507 23.021v.4l-12.25.81v-.4z"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 88.898 14.531)"/>
+    <rect width=".13" height="2.686" x="-.065" y="-2.3" fill="currentColor" ry=".04" transform="translate(89.75 14.031)"/>
+    <use xlink:href="#reuse-11" transform="matrix(.004 0 0 -.004 90.362 15.031)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(90.362 10.794)">
+<tspan>➊</tspan>
+</text>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 90.362 22.531)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(90.362 27.32)">
+<tspan>➅</tspan>
+</text>
+    <rect width=".13" height="3.241" x="-.065" y="-2.5" fill="currentColor" ry=".04" transform="translate(91.674 14.031)"/>
+    <rect width=".13" height="2.31" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(90.427 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 94.595 20.531)"/>
+    <rect width=".13" height="4.032" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(94.66 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 98.329 21.531)"/>
+    <rect width=".13" height="2.786" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(98.394 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 102.562 20.531)"/>
+    <rect width=".13" height="3.508" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(102.627 23.031)"/>
+    <use xlink:href="#reuse-4" transform="matrix(.004 0 0 -.004 106.296 14.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 106.296 24.031)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(106.296 29.13)">
+<tspan>➂</tspan>
+</text>
+    <rect width=".13" height="2.619" x="-.065" y="1.186" fill="currentColor" ry=".04" transform="translate(106.36 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 110.529 21.531)"/>
+    <rect width=".13" height="4.807" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(110.594 23.031)"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 113.632 11.031)"/>
+    <rect width=".13" height="2.486" x="-.065" y="-5.6" fill="currentColor" ry=".04" transform="translate(114.485 14.031)"/>
+    <use xlink:href="#reuse-6" transform="matrix(.0028 0 0 -.0028 114.55 8.471)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 115.618 11.531)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(115.618 10.249)">
+<tspan>➊</tspan>
+</text>
+    <path fill="currentColor" d="M116.18 17.721c.311 0 .387-.704.387-.712 0-.072-.027-.132-.1-.132-.243 0-.407.496-.407.692 0 .088.032.152.12.152zm-.857-.436c0-.008.205-.604.537-.604.14 0 .235.084.263.208.116-.124.268-.208.412-.208.277 0 .429.196.429.456 0 .472-.42.744-.637.744-.211 0-.28-.08-.335-.08-.029 0-.057.012-.065.036l-.115.344c-.004.008-.004.02-.004.028 0 .148.227.072.227.168 0 .028-.015.056-.051.056-.013 0-.2-.02-.465-.02s-.448.02-.46.02a.055.055 0 0 1-.055-.056c0-.124.347.004.407-.164l.409-1.2a.315.315 0 0 0 .016-.08c0-.032-.008-.056-.044-.056-.132 0-.252.24-.316.388a.104.104 0 0 1-.096.068c-.032 0-.056-.016-.056-.048z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 115.618 23.031)"/>
+    <rect width=".13" height="3.124" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(115.683 14.031)"/>
+    <rect width=".13" height="2.932" x="-.065" y=".186" fill="currentColor" ry=".04" transform="translate(115.683 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 119.726 12.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 119.726 21.531)"/>
+    <rect width=".13" height="2.624" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(119.79 14.031)"/>
+    <rect width=".13" height="4.129" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(119.79 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 122.37 11.531)"/>
+    <rect width=".13" height="3.124" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(122.435 14.031)"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 125.199 12.031)"/>
+    <rect width=".16" height="13.1" y="-6.55" fill="currentColor" ry=".05" transform="translate(7.907 18.531)"/>
+    <rect width=".13" height="2.286" x="-.065" y="-4.4" fill="currentColor" ry=".04" transform="translate(126.052 14.031)"/>
+    <use xlink:href="#reuse-8" transform="matrix(.0028 0 0 -.0028 126.117 9.671)"/>
+    <use xlink:href="#reuse-12" transform="matrix(.004 0 0 -.004 7.607 18.531)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 127.184 12.531)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 127.184 23.531)"/>
+    <use xlink:href="#reuse-9" transform="matrix(.004 0 0 -.004 128.938 12.531)"/>
+    <rect width=".13" height="3.314" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(127.249 14.031)"/>
+    <rect width=".13" height="2.12" x="-.065" y=".686" fill="currentColor" ry=".04" transform="translate(127.249 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 131.417 21.531)"/>
+    <rect width=".13" height="3.841" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(131.482 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 135.15 22.531)"/>
+    <rect width=".13" height="2.596" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(135.215 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 139.384 12.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 139.384 21.531)"/>
+    <rect width=".13" height="3.314" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(139.449 14.031)"/>
+    <use xlink:href="#reuse-10" transform="matrix(.004 0 0 -.004 139.514 15.491)"/>
+    <rect width=".13" height="3.318" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(139.449 23.031)"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 142.57 11.031)"/>
+    <rect width=".13" height="2.286" x="-.065" y="-5.4" fill="currentColor" ry=".04" transform="translate(143.423 14.031)"/>
+    <use xlink:href="#reuse-8" transform="matrix(.0028 0 0 -.0028 143.488 8.671)"/>
+    <rect width=".13" height="3.318" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(157.17 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 144.556 11.531)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 144.556 23.531)"/>
+    <rect width=".13" height="3.314" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(144.62 14.031)"/>
+    <rect width=".13" height="2.12" x="-.065" y=".686" fill="currentColor" ry=".04" transform="translate(144.62 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 157.106 21.531)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 148.79 21.531)"/>
+    <rect width=".13" height="3.849" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(148.854 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 152.523 12.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 152.523 22.531)"/>
+    <rect width=".13" height="3.628" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(152.588 14.031)"/>
+    <rect width=".13" height="2.611" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(152.588 23.031)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 155.166 12.531)"/>
+    <use xlink:href="#reuse-9" transform="matrix(.004 0 0 -.004 156.92 12.531)"/>
+    <rect width=".13" height="3.309" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(155.231 14.031)"/>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M8.017 39.4h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976"/>
+    <rect width=".19" height="4.95" y="11.098" fill="currentColor" ry="0" transform="translate(160.853 28.353)"/>
+    <rect width="1.956" height=".2" x="78.299" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 43.4)"/>
+    <rect width="1.956" height=".2" x="69.567" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 43.4)"/>
+    <rect width="1.956" height=".2" x="59.754" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 43.4)"/>
+    <rect width="1.956" height=".2" x="51.372" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 43.4)"/>
+    <rect width="1.956" height=".2" x="39.184" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 43.4)"/>
+    <rect width="1.956" height=".2" x="29.579" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 43.4)"/>
+    <rect width="1.956" height=".2" x="21.197" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 43.4)"/>
+    <rect width="1.956" height=".2" x="12.815" y="-.1" fill="currentColor" ry=".1" transform="translate(7.967 43.4)"/>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M8.017 48.4h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976m-152.976-1h152.976"/>
+    <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(160.853 46.4)"/>
+    <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(160.853 37.4)"/>
+    <rect width=".19" height="4.95" y="11.098" fill="currentColor" ry="0" transform="translate(125.73 28.353)"/>
+    <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(125.73 46.4)"/>
+    <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(125.73 37.4)"/>
+    <rect width=".19" height="4.95" y="11.098" fill="currentColor" ry="0" transform="translate(89.745 28.353)"/>
+    <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(89.745 46.4)"/>
+    <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(89.745 37.4)"/>
+    <rect width=".19" height="4.95" y="11.098" fill="currentColor" ry="0" transform="translate(52.259 28.353)"/>
+    <rect width=".19" height="4.05" y="-2.05" fill="currentColor" ry="0" transform="translate(52.259 46.4)"/>
+    <rect width=".19" height="4.05" y="-2" fill="currentColor" ry="0" transform="translate(52.259 37.4)"/>
+    <use xlink:href="#reuse-2" transform="matrix(.004 0 0 -.004 8.767 45.4)"/>
+    <use xlink:href="#reuse-3" transform="matrix(.004 0 0 -.004 12.267 45.4)"/>
+    <text fill="currentColor" font-family="serif" font-size="1.746" transform="translate(6.26 34.35)">
+<tspan>11</tspan>
+</text>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M157.725 35.01v.4l-12.623-.81v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 16.317 36.9)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 16.317 44.9)"/>
+    <rect width=".13" height="3.31" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(16.382 37.4)"/>
+    <use xlink:href="#reuse-3" transform="matrix(.004 0 0 -.004 14.867 36.9)"/>
+    <rect width=".13" height="2.31" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(16.382 46.4)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M139.805 39.01v.4l-12.623-.81v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 19.064 36.4)"/>
+    <use xlink:href="#reuse-9" transform="matrix(.004 0 0 -.004 20.819 35.9)"/>
+    <rect width=".13" height="3.628" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(19.13 37.4)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M121.865 49.01v.4l-12.873 1v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 21.108 42.9)"/>
+    <rect width=".13" height="4.018" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(21.173 46.4)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M105.101 47.39v.4l-12.872.81v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 25.049 36.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 25.049 43.9)"/>
+    <rect width=".13" height="3.314" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(25.114 37.4)"/>
+    <rect width=".13" height="2.778" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(25.114 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 29.49 42.9)"/>
+    <rect width=".13" height="3.508" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(29.555 46.4)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M86.682 47.2v.4l-13.223.81v-.4z"/>
+    <use xlink:href="#reuse-4" transform="matrix(.004 0 0 -.004 33.43 37.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 33.43 45.4)"/>
+    <rect width=".13" height="2.62" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(33.496 46.4)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M82.926 39.354v.4l-1.085-.153v-.4zm1.712 1.036v.4l-2.797-.38v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 37.872 42.9)"/>
+    <rect width=".13" height="4.866" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(37.937 46.4)"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 41.141 35.9)"/>
+    <rect width=".13" height="2.486" x="-.065" y="-4.1" fill="currentColor" ry=".04" transform="translate(41.994 37.4)"/>
+    <use xlink:href="#reuse-6" transform="matrix(.0028 0 0 -.0028 42.059 33.34)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M68.136 46.39v.4l-12.873.62v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 43.16 36.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 43.16 44.4)"/>
+    <rect width=".13" height="3.624" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(43.226 37.4)"/>
+    <rect width=".13" height="3.064" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(43.226 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 47.477 36.9)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 47.477 42.9)"/>
+    <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(47.542 37.4)"/>
+    <rect width=".13" height="4.318" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(47.542 46.4)"/>
+    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(85.037 29.65)">
+<tspan>Romanesca</tspan>
+</text>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 50.224 36.4)"/>
+    <rect width=".13" height="3.624" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(50.29 37.4)"/>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="m123.33 30.227.5 1m-68.107-1-.5 1m.5-1h67.606" class="schema"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M47.567 47.2v.4l-14.096.81v-.4z"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 53.204 36.9)"/>
+    <use xlink:href="#reuse-3" transform="matrix(.004 0 0 -.004 12.267 35.4)"/>
+    <rect width=".13" height="2.486" x="-.065" y="-3.1" fill="currentColor" ry=".04" transform="translate(54.057 37.4)"/>
+    <use xlink:href="#reuse-8" transform="matrix(.0028 0 0 -.0028 54.122 34.34)"/>
+    <use xlink:href="#reuse-7" transform="matrix(.004 0 0 -.004 8.767 38.4)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M50.314 39.2v.4h-2.797v-.4zm0 .81v.4h-7.113v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 55.223 37.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 55.223 44.9)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(55.223 50.499)">
+<tspan>➀</tspan>
+</text>
+    <use xlink:href="#reuse-9" transform="matrix(.004 0 0 -.004 56.978 36.9)"/>
+    <rect width=".13" height="3.147" x="-.065" y=".186" fill="currentColor" ry=".04" transform="translate(55.288 37.4)"/>
+    <rect width=".13" height="2.121" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(55.288 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 59.664 42.9)"/>
+    <rect width=".13" height="3.908" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(59.73 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 63.605 43.9)"/>
+    <rect width=".13" height="2.72" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(63.67 46.4)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M29.58 46.39v.4l-13.223.81v-.4z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 68.046 36.9)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 68.046 42.9)"/>
+    <rect width=".13" height="3.314" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(68.111 37.4)"/>
+    <use xlink:href="#reuse-10" transform="matrix(.004 0 0 -.004 68.176 40.36)"/>
+    <rect width=".13" height="3.507" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(68.111 46.4)"/>
+    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M17.442 39.314v.4l-1.085.077v-.4zm1.712.696v.4l-2.797.19v-.4z"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 71.4 35.9)"/>
+    <rect width=".13" height="2.286" x="-.065" y="-3.9" fill="currentColor" ry=".04" transform="translate(72.252 37.4)"/>
+    <use xlink:href="#reuse-8" transform="matrix(.0028 0 0 -.0028 72.317 33.54)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 73.419 36.4)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(73.419 34.613)">
+<tspan>➎</tspan>
+</text>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 73.419 45.4)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(73.419 50.499)">
+<tspan>➆</tspan>
+</text>
+    <rect width=".13" height="3.314" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(73.484 37.4)"/>
+    <rect width=".13" height="2.62" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(73.484 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 77.86 42.9)"/>
+    <rect width=".13" height="4.849" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(77.925 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 81.8 36.9)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 81.8 44.4)"/>
+    <rect width=".13" height="3.132" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(81.866 37.4)"/>
+    <rect width=".13" height="3.11" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(81.866 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 84.548 37.4)"/>
+    <use xlink:href="#reuse-9" transform="matrix(.004 0 0 -.004 86.302 36.9)"/>
+    <rect width=".13" height="2.995" x="-.065" y=".186" fill="currentColor" ry=".04" transform="translate(84.613 37.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 86.592 42.9)"/>
+    <rect width=".13" height="4.318" x="-.065" y="-3.314" fill="currentColor" ry=".04" transform="translate(86.657 46.4)"/>
+    <use xlink:href="#reuse-5" transform="matrix(.0028 0 0 -.0028 90.69 37.9)"/>
+    <rect width=".13" height="2.686" x="-.065" y="-2.3" fill="currentColor" ry=".04" transform="translate(91.542 37.4)"/>
+    <use xlink:href="#reuse-11" transform="matrix(.004 0 0 -.004 92.189 38.4)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(92.189 34.163)">
+<tspan>➊</tspan>
+</text>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 92.189 45.9)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(92.189 50.689)">
+<tspan>➅</tspan>
+</text>
+    <rect width=".13" height="3.241" x="-.065" y="-2.5" fill="currentColor" ry=".04" transform="translate(93.5 37.4)"/>
+    <rect width=".13" height="2.31" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(92.254 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 96.63 43.9)"/>
+    <rect width=".13" height="4.032" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(96.695 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 100.57 44.9)"/>
+    <rect width=".13" height="2.786" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(100.635 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 105.011 43.9)"/>
+    <rect width=".13" height="3.508" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(105.076 46.4)"/>
+    <use xlink:href="#reuse-11" transform="matrix(.004 0 0 -.004 108.952 34.9)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(108.952 33.618)">
+<tspan>➊</tspan>
+</text>
+    <path fill="currentColor" d="m110.021 40.967-.2.652c-.12.396-.484 1.02-.872 1.02-.18 0-.348-.108-.348-.276 0-.156.068-.308.208-.308.096 0 .176.08.176.176 0 .12-.152.096-.152.216 0 .04.044.044.092.044h.024c.192 0 .244-.232.292-.432l.272-1.092h-.196c-.044 0-.076-.032-.076-.076s.032-.076.076-.076h.24c.128-.384.472-.764.852-.764.18 0 .348.108.348.276 0 .156-.068.308-.208.308a.174.174 0 0 1-.176-.172c0-.12.152-.1.152-.22 0-.04-.04-.044-.088-.044h-.028c-.248 0-.28.352-.344.616h.22c.044 0 .076.032.076.076s-.032.076-.076.076h-.264z"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 108.952 47.4)"/>
+    <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(108.952 52.499)">
+<tspan>➂</tspan>
+</text>
+    <rect width=".13" height="3.241" x="-.065" y="-2.241" fill="currentColor" ry=".04" transform="translate(109.017 37.4)"/>
+    <rect width=".13" height="2.619" x="-.065" y="1.186" fill="currentColor" ry=".04" transform="translate(109.017 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 113.393 44.9)"/>
+    <rect width=".13" height="4.776" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(113.458 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 117.334 46.4)"/>
+    <rect width=".13" height="2.972" x="-.065" y=".186" fill="currentColor" ry=".04" transform="translate(117.4 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 121.775 44.9)"/>
+    <rect width=".13" height="4.129" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(121.84 46.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 127.142 34.9)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 127.142 46.9)"/>
+    <rect width=".16" height="13.1" y="-6.55" fill="currentColor" ry=".05" transform="translate(7.907 41.9)"/>
+    <rect width=".13" height="3.318" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(127.207 37.4)"/>
+    <rect width=".13" height="3.314" x="-.065" y="-3" fill="currentColor" ry=".04" transform="translate(128.381 46.4)"/>
+    <use xlink:href="#reuse-12" transform="matrix(.004 0 0 -.004 7.607 41.9)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 131.333 35.4)"/>
+    <rect width=".13" height="3.085" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(131.398 37.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 135.524 35.9)"/>
+    <use xlink:href="#reuse-4" transform="matrix(.004 0 0 -.004 135.524 46.4)"/>
+    <rect width=".13" height="2.853" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(135.59 37.4)"/>
+    <rect width=".13" height="3.008" x="-.065" y="-2.194" fill="currentColor" ry=".04" transform="translate(157.7 37.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 139.715 36.4)"/>
+    <rect width=".13" height="2.62" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(139.78 37.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 156.46 38.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 143.888 36.9)"/>
+    <use xlink:href="#reuse-4" transform="matrix(.004 0 0 -.004 143.888 46.4)"/>
+    <rect width=".13" height="2.31" x="-.065" y="-2.996" fill="currentColor" ry=".04" transform="translate(145.127 37.4)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 148.079 37.4)"/>
+    <rect width=".13" height="2.542" x="-.065" y="-2.729" fill="currentColor" ry=".04" transform="translate(149.318 37.4)"/>
+    <use xlink:href="#reuse-3" transform="matrix(.004 0 0 -.004 150.82 46.9)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 152.27 37.9)"/>
+    <use xlink:href="#reuse-1" transform="matrix(.004 0 0 -.004 152.27 46.9)"/>
+    <rect width=".13" height="2.775" x="-.065" y="-2.461" fill="currentColor" ry=".04" transform="translate(153.509 37.4)"/>
+    <rect width=".13" height="3.314" x="-.065" y="-3" fill="currentColor" ry=".04" transform="translate(153.509 46.4)"/>
+</svg>

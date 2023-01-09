@@ -87,7 +87,7 @@ upVoice = \new Voice {
       r16 b r b, r c r d r e r fis r g r a |
       \voiceOne r16 b r b r c r d r e r fis! r g r a |
       b16 \romanesca \p a g a g4 \mdo r8 b16 c d \mso b d b |
-      \grace a16 g16 \mdo fis g a g4 r8 g16 a b g b g \stopGroup \oneVoice |
+      \grace a16 g16 \mdo fis g a g4 r8 g16 \mdo a b g b g \stopGroup \oneVoice |
       fis16 \prinner e \mla dis e g8 dis \mso \grace dis16 c8 \mfa b16 a \grace c16 b8 \mmi a16 g \stopGroup |
       fis8 \f d16 cis d e fis g a b c b \grace d16 c8 b16 a |
       b16 g fis g b \ascendingHexachord g c g d' g, e' g, fis' g, g' g, \stopGroup |
