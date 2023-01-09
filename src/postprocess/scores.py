@@ -19,9 +19,11 @@ def urlize(s: str) -> str:
 def link_schemata(path: pathlib.Path) -> None:
     """Link analysis bracket texts to corresponding schemata."""
     schemata = [
+        "Do-Re-Mi",
         "Fenaroli",
         "Prinner",
         "Quiescenza",
+        "Romanesca",
     ]
 
     tree = ET.parse(path)

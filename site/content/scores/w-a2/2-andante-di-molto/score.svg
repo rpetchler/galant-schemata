@@ -190,9 +190,11 @@
     <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M42.987 22.628v.4h-7.942v-.4zm0 .81v.4h-7.942v-.4z"/>
     <use xlink:href="#2-andante-di-molto__reuse-0" transform="matrix(.004 0 0 -.004 96.882 14.328)"/>
     <rect width=".13" height="3.322" x="-.065" y="-2.008" fill="currentColor" ry=".04" transform="translate(98.121 12.828)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(51.292 6.281)">
+    <a xlink:href="../../schemata/romanesca/" class="schema" transform="translate(51.292 6.281)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Romanesca</tspan>
 </text>
+    </a>
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="m76.06 6.858.5 1m-41.055-1-.5 1m.5-1H76.06" class="schema"/>
     <use xlink:href="#2-andante-di-molto__reuse-13" transform="matrix(.0028 0 0 -.0028 99.994 14.328)"/>
     <use xlink:href="#2-andante-di-molto__reuse-8" transform="matrix(.004 0 0 -.004 24.217 10.828)"/>
@@ -1224,9 +1226,11 @@
     <use xlink:href="#2-andante-di-molto__reuse-10" transform="matrix(.004 0 0 -.004 67.134 114.03)"/>
     <rect width=".13" height="4.314" x="-.065" fill="currentColor" ry=".04" transform="translate(68.243 123.07)"/>
     <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M33.17 121.06v.4h-8.308v-.4zm0 .81v.4h-8.308v-.4z"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(41.488 105.534)">
+    <a xlink:href="../../schemata/romanesca/" class="schema" transform="translate(41.488 105.534)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Romanesca</tspan>
 </text>
+    </a>
     <use xlink:href="#2-andante-di-molto__reuse-0" transform="matrix(.004 0 0 -.004 73.173 110.57)"/>
     <use xlink:href="#2-andante-di-molto__reuse-0" transform="matrix(.004 0 0 -.004 73.173 122.07)"/>
     <use xlink:href="#2-andante-di-molto__reuse-23" transform="matrix(.004 0 0 -.004 68.973 122.07)"/>

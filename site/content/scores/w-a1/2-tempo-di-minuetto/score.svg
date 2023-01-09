@@ -480,9 +480,11 @@
     <use xlink:href="#2-tempo-di-minuetto__reuse-0" transform="matrix(.004 0 0 -.004 82.441 47.375)"/>
     <rect width=".13" height="2.314" x="-.065" y="-6.5" fill="currentColor" ry=".04" transform="translate(83.68 46.875)"/>
     <rect width=".13" height="2.981" x="-.065" y=".686" fill="currentColor" ry=".04" transform="translate(82.506 46.875)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(55.992 33.766)">
+    <a xlink:href="../../schemata/do-re-mi/" class="schema" transform="translate(55.992 33.766)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Do-Re-Mi</tspan>
 </text>
+    </a>
     <use xlink:href="#2-tempo-di-minuetto__reuse-0" transform="matrix(.004 0 0 -.004 87.872 42.875)"/>
     <use xlink:href="#2-tempo-di-minuetto__reuse-0" transform="matrix(.004 0 0 -.004 87.872 43.875)"/>
     <use xlink:href="#2-tempo-di-minuetto__reuse-0" transform="matrix(.004 0 0 -.004 87.872 44.875)"/>
@@ -2032,9 +2034,11 @@
     <rect width=".13" height="3.314" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(48.029 208.966)"/>
     <use xlink:href="#2-tempo-di-minuetto__reuse-0" transform="matrix(.004 0 0 -.004 50.375 197.193)"/>
     <rect width=".13" height="2.814" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(50.44 198.693)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(111.326 189.528)">
+    <a xlink:href="../../schemata/do-re-mi/" class="schema" transform="translate(111.326 189.528)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Do-Re-Mi</tspan>
 </text>
+    </a>
     <use xlink:href="#2-tempo-di-minuetto__reuse-0" transform="matrix(.004 0 0 -.004 52.787 196.693)"/>
     <rect width=".13" height="3.012" x="-.065" y="-1.814" fill="currentColor" ry=".04" transform="translate(52.852 198.693)"/>
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="m142.904 190.105.5 1m-55.53-1-.5 1m.5-1h55.03" class="schema"/>

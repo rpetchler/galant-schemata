@@ -295,9 +295,11 @@
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 51.538 39.374)"/>
     <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M84.843 41.054v.4H82.77v-.4zm0 .81v.4H82.77v-.4zm0 .81v.4h-8.035v-.4z"/>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 51.538 46.874)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(139.272 32.62)">
+    <a xlink:href="../../schemata/romanesca/" class="schema" transform="translate(139.272 32.62)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Romanesca</tspan>
 </text>
+    </a>
     <rect width=".13" height="2.814" x="-.065" y="-3" fill="currentColor" ry=".04" transform="translate(52.778 39.374)"/>
     <rect width=".13" height="4.814" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(51.603 48.374)"/>
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M161.042 33.196h0m-34.061 0-.5 1m.5-1h34.061" class="schema"/>
@@ -525,9 +527,11 @@
     <rect width=".13" height="3.124" x="-.065" y="-2.314" fill="currentColor" ry=".04" transform="translate(48.565 61.559)"/>
     <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M80.181 62.438v.4l-1.085-.08v-.4zm1.639.921v.4l-2.724-.19v-.4zm-15.992 9v.4l-12.431.81v-.4z"/>
     <use xlink:href="#1-allegro__reuse-6" transform="matrix(.0028 0 0 -.0028 51.362 59.559)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(139.788 54.803)">
+    <a xlink:href="../../schemata/romanesca/" class="schema" transform="translate(139.788 54.803)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Romanesca</tspan>
 </text>
+    </a>
     <rect width=".13" height="2.286" x="-.065" y="-4.4" fill="currentColor" ry=".04" transform="translate(52.215 61.559)"/>
     <use xlink:href="#1-allegro__reuse-12" transform="matrix(.0028 0 0 -.0028 52.28 57.199)"/>
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M161.043 55.38h0m-33.03 0-.5 1m.5-1h33.03" class="schema"/>
@@ -567,9 +571,11 @@
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 83.7 69.059)"/>
     <rect width=".13" height="3.318" x="-.065" y="-1.314" fill="currentColor" ry=".04" transform="translate(83.765 70.559)"/>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 89.81 61.059)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(23.303 53.416)">
+    <a xlink:href="../../schemata/romanesca/" class="schema" transform="translate(23.303 53.416)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>(Romanesca)</tspan>
 </text>
+    </a>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 89.81 69.059)"/>
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="m49.304 54.385.5 1m-42.725-1h0m0 0h42.225" class="schema"/>
     <rect width=".13" height="3.309" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(89.876 61.559)"/>
@@ -763,9 +769,11 @@
     <rect width=".13" height="3.008" x="-.065" y="-2.194" fill="currentColor" ry=".04" transform="translate(82.422 85.383)"/>
     <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M29.153 95.373v.4l-13.038.81v-.4z"/>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 86.983 84.383)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(15.175 77.241)">
+    <a xlink:href="../../schemata/romanesca/" class="schema" transform="translate(15.175 77.241)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>(Romanesca)</tspan>
 </text>
+    </a>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 86.983 94.383)"/>
     <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(86.983 99.765)">
 <tspan>➄</tspan>
@@ -3392,9 +3400,11 @@
     <rect width=".13" height="3.01" x="-.065" y="-2.814" fill="currentColor" ry=".04" transform="translate(101.139 404.82)"/>
     <use xlink:href="#1-allegro__reuse-2" transform="matrix(.004 0 0 -.004 99.624 401.82)"/>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 105.632 391.32)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(141.476 389.066)">
+    <a xlink:href="../../schemata/romanesca/" class="schema" transform="translate(141.476 389.066)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Romanesca</tspan>
 </text>
+    </a>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 105.632 401.32)"/>
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M161.043 389.642h0m-29.654 0-.5 1m.5-1h29.654" class="schema"/>
     <rect width=".13" height="4.314" x="-.065" y="-4.314" fill="currentColor" ry=".04" transform="translate(105.697 395.82)"/>
@@ -3525,9 +3535,11 @@
     <use xlink:href="#1-allegro__reuse-6" transform="matrix(.0028 0 0 -.0028 34.735 416.539)"/>
     <rect width=".13" height="2.486" x="-.065" y="-5.6" fill="currentColor" ry=".04" transform="translate(35.587 419.539)"/>
     <use xlink:href="#1-allegro__reuse-7" transform="matrix(.0028 0 0 -.0028 35.653 413.979)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(126.69 411.789)">
+    <a xlink:href="../../schemata/romanesca/" class="schema" transform="translate(126.69 411.789)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Romanesca</tspan>
 </text>
+    </a>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 36.583 417.039)"/>
     <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(36.583 414.542)">
 <tspan>➊</tspan>
@@ -3623,9 +3635,11 @@
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 103.45 418.539)"/>
     <rect width=".13" height="3.624" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(103.514 419.539)"/>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 106.717 419.539)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(19.727 410.182)">
+    <a xlink:href="../../schemata/romanesca/" class="schema" transform="translate(19.727 410.182)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>(Romanesca)</tspan>
 </text>
+    </a>
     <use xlink:href="#1-allegro__reuse-0" transform="matrix(.004 0 0 -.004 106.717 427.039)"/>
     <text fill="currentColor" class="scale-degree" font-family="serif" font-size="2.2" transform="translate(106.717 432.637)">
 <tspan>➀</tspan>

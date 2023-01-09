@@ -131,9 +131,11 @@
     <use xlink:href="#3-minuetto__reuse-1" transform="matrix(.004 0 0 -.004 63.58 15.512)"/>
     <use xlink:href="#3-minuetto__reuse-8" transform="matrix(.004 0 0 -.004 63.58 24.512)"/>
     <rect width=".13" height="4.147" x="-.065" y="-.814" fill="currentColor" ry=".04" transform="translate(63.645 15.512)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(35.34 6.347)">
+    <a xlink:href="../../schemata/do-re-mi/" class="schema" transform="translate(35.34 6.347)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Do-Re-Mi</tspan>
 </text>
+    </a>
     <use xlink:href="#3-minuetto__reuse-1" transform="matrix(.004 0 0 -.004 67.364 15.012)"/>
     <use xlink:href="#3-minuetto__reuse-1" transform="matrix(.004 0 0 -.004 67.364 16.012)"/>
     <use xlink:href="#3-minuetto__reuse-8" transform="matrix(.004 0 0 -.004 67.364 24.512)"/>
@@ -736,9 +738,11 @@
     <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M55.405 65.636v.4l-10.294-1v-.4z"/>
     <use xlink:href="#3-minuetto__reuse-1" transform="matrix(.004 0 0 -.004 45.946 67.836)"/>
     <rect width=".13" height="2.61" x="-.065" y="-.796" fill="currentColor" ry=".04" transform="translate(47.185 65.836)"/>
-    <text fill="currentColor" class="schema" font-family="serif" font-size="1.96" transform="translate(59.838 56.67)">
+    <a xlink:href="../../schemata/do-re-mi/" class="schema" transform="translate(59.838 56.67)">
+        <text fill="currentColor" font-family="serif" font-size="1.96">
 <tspan>Do-Re-Mi</tspan>
 </text>
+    </a>
     <use xlink:href="#3-minuetto__reuse-1" transform="matrix(.004 0 0 -.004 47.995 68.336)"/>
     <use xlink:href="#3-minuetto__reuse-2" transform="matrix(.004 0 0 -.004 48.647 63.536)"/>
     <use xlink:href="#3-minuetto__reuse-8" transform="matrix(.004 0 0 -.004 47.995 74.836)"/>
