@@ -50,6 +50,7 @@ upVoice = \new Voice {
       c,32 [ f16. ] \stemUp a,32 [ c16. ] \stemNeutral f,32 [ a16. \stopGroup ] g32 [ e16. ] |
       e4 ( f8 )
     }
+    \break
     \repeat volta 2 {
       \partial 8 a16. \trill bes32 |
       <c a>4 \theme f16 ( c a c ) |
@@ -144,6 +145,7 @@ downVoice = \new Voice {
       r4 r8 <bes' c,> |
       << { bes4 ( a8 ) } \\ { f4. } >> \oneVoice
     }
+    \break
     \repeat volta 2 {
       \partial 8 r8 |
       r16 \stemDown f ( a c ) f,4 \stemNeutral |
