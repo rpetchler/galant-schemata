@@ -1,5 +1,9 @@
 +++
 title = "Allegretto"
+
+[_build]
+publishResources = false
+render = "never"
 +++
 The Sol-Fa-Mi is the three-stage variety mentioned in the introduction to
 Chapter 18 of *Music in the Galant Style* (Gjerdingen 2007, 253) rather than

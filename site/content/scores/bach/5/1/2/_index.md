@@ -1,5 +1,9 @@
 +++
 title = "Tempo di Minuetto"
+
+[_build]
+publishResources = false
+render = "never"
 +++
 This movement contains a few noteworth schemata. The Do-Re-Mi lacks the 1-7-1
 bass but occurs in a round. A Quiescenza begins the second half, and is

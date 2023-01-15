@@ -1,5 +1,9 @@
 +++
 title = "Minuetto"
+
+[_build]
+publishResources = false
+render = "never"
 +++
 
 The major section uses a Do-Re-Mi as an opening gesture, and the minor section

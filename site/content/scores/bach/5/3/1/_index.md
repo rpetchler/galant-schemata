@@ -1,6 +1,10 @@
 +++
 title = "Allegro"
 weight = 1
+
+[_build]
+publishResources = false
+render = "never"
 +++
 
 My favorite part of this movement occurs at the end of the __A__ section of the

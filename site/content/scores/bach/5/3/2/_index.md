@@ -1,6 +1,10 @@
 +++
 title = "Allegretto"
 weight = 2
+
+[_build]
+publishResources = false
+render = "never"
 +++
 
 The first half of this movement begins with a Romanesca–Prinner. Only in the
