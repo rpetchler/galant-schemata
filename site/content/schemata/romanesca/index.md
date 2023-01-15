@@ -45,8 +45,8 @@ metrically weak events.
 
 {{<
   figure
-  "kv-107-i-1-9.svg"
-  "W. A. Mozart, KV 107 I, mvt. 1, Allegro, m. 9"
+  "kv-107-1-1-9.svg"
+  "W. A. Mozart, KV 107 I, mvt. 1, Allegro, m. 9 (Salzburg, 1770–72)"
   "../../scores/kv-107-1/#1-allegro"
 >}}
 

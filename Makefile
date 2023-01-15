@@ -25,7 +25,7 @@ schemata: \
 	site/content/schemata/prinner/w-a3-2-67.svg \
 	site/content/schemata/quiescenza/w-a1-2-30.svg \
 	site/content/schemata/quiescenza/w-a2-1-16.svg \
-	site/content/schemata/romanesca/kv-107-i-1-9.svg \
+	site/content/schemata/romanesca/kv-107-1-1-9.svg \
 	site/content/schemata/romanesca/w-a2-1-9.svg \
 	site/content/schemata/romanesca/w-a7-1-7.svg
 
