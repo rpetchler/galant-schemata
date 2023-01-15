@@ -1,6 +1,0 @@
-\version "2.24.0"
-\include "../../stylesheets/annotation.ly"
-\include "../../stylesheets/score.ly"
-\include "../../stylesheets/typography.ly"
-\include "1-allegro.ly"
-\include "2-allegretto.ly"

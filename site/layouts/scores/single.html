@@ -6,16 +6,6 @@
   </div>
   <div class="offcanvas-body">
     <div class="pb-2">
-      <h6 class="text-muted">{{ .Params.composer }}</h6>
-      <div class="hstack gap-2">
-        {{ if .Params.opus }}
-        <h6 class="text-muted">{{ .Params.opus }}</h6>
-        <div class="vr"></div>
-        {{ end }}
-        <h6 class="text-muted">{{ .Params.id }}</h6>
-      </div>
-    </div>
-    <div class="pb-2">
       <h6>Movements</h6>
       <ol class="list-unstyled">
         {{ range $index, $movement := .Params.movements }}
@@ -47,32 +37,28 @@
   </a>
 </div>
 
-<div class="py-3">
-  <main>
-    <div class="narrow mx-auto">
-      <h3>{{ .Title }}</h3>
+<main>
+  <div class="narrow mx-auto py-3">
+    <h3>{{ .Title }}</h3>
+    {{ .Content }}
+  </div>
+  {{ range $index, $section := .Sections }}
+    <div class="narrow mx-auto py-2">
+      <h4 id="{{ printf "%d-%s" ( add 1 $index ) ( urlize .Title ) }}">{{ .Title }}</h4>
       {{ .Content }}
-    </div>
-    {{ range $index, $movement := .Params.movements }}
-      {{ $slug := ( printf "%d-%s" ( add 1 $index ) ( urlize $movement ) ) }}
-      <div class="narrow mx-auto py-3">
-        <h4 id="{{ $slug }}">{{ $movement }}</h4>
-        {{ with $.Resources.GetMatch ( path.Join $slug "index.md" ) }}
-          {{ .Content }}
-        {{ end }}
+      {{ with .Resources.GetMatch "overview.html" }}
         <div class="mx-auto w-75">
-          {{ with $.Resources.GetMatch ( path.Join $slug "overview.html" ) }}
-            {{ ( replace .Content "\n" ( printf "<caption>Overview of schemata in %s</caption>\n" $movement ) 1 ) | safeHTML }}
-          {{ end }}
+          {{ ( replace .Content "\n" ( printf "<caption>Overview of schemata in %s</caption>\n" $section.Title ) 1 ) | safeHTML }}
         </div>
-      </div>
-      <div class="py-3">
-        {{ $target := $.Resources.GetMatch ( path.Join $slug "score.svg" ) }}
-        {{ $target.Content | safeHTML }}
-      </div>
-    {{ end }}
-  </main>
-</div>
+      {{ end }}
+    </div>
+    <div class="py-2">
+      {{ with .Resources.GetMatch "score.svg" }}
+        {{ .Content | safeHTML }}
+      {{ end }}
+    </div>
+  {{ end }}
+</main>
 
 {{- $js := resources.Get "js/main.js" -}}
 {{- if eq hugo.Environment "production" -}}

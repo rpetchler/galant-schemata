@@ -47,7 +47,7 @@ metrically weak events.
   figure
   "kv-107-i-1-9.svg"
   "W. A. Mozart, KV 107 I, mvt. 1, Allegro, m. 9"
-  "../../scores/kv-107-i/#1-allegro"
+  "../../scores/kv-107-1/#1-allegro"
 >}}
 
 *A stepwise type, in which the bass descends entirely by step, with alternating

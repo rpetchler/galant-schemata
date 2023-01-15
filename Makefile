@@ -30,35 +30,35 @@ schemata: \
 	site/content/schemata/romanesca/w-a7-1-7.svg
 
 scores: \
-	site/content/scores/kv-107-i/1-allegro/score.svg \
-	site/content/scores/kv-107-i/2-andante/score.svg \
-	site/content/scores/kv-107-i/3-tempo-di-menuetto/score.svg \
-	site/content/scores/w-a1/1-allegretto/score.svg \
-	site/content/scores/w-a1/2-tempo-di-minuetto/score.svg \
-	site/content/scores/w-a2/1-allegro-di-molto/score.svg \
-	site/content/scores/w-a2/2-andante-di-molto/score.svg \
-	site/content/scores/w-a2/3-minuetto/score.svg \
-	site/content/scores/w-a3/1-allegro/score.svg \
-	site/content/scores/w-a3/2-allegretto/score.svg \
-	site/content/scores/w-a4/1-allegro/score.svg \
-	site/content/scores/w-a4/2-allegretto/score.svg \
-	site/content/scores/w-a5/1-allegro-assai/score.svg \
-	site/content/scores/w-a5/2-adagio/score.svg \
-	site/content/scores/w-a5/3-prestissimo/score.svg \
-	site/content/scores/w-a7/1-allegro/score.svg \
-	site/content/scores/w-a7/2-minuetto-con-variatione/score.svg
+	site/content/scores/bach/17/1/1/score.svg \
+	site/content/scores/bach/17/1/2/score.svg \
+	site/content/scores/bach/5/1/1/score.svg \
+	site/content/scores/bach/5/1/2/score.svg \
+	site/content/scores/bach/5/2/1/score.svg \
+	site/content/scores/bach/5/2/2/score.svg \
+	site/content/scores/bach/5/2/3/score.svg \
+	site/content/scores/bach/5/3/1/score.svg \
+	site/content/scores/bach/5/3/2/score.svg \
+	site/content/scores/bach/5/4/1/score.svg \
+	site/content/scores/bach/5/4/2/score.svg \
+	site/content/scores/bach/5/5/1/score.svg \
+	site/content/scores/bach/5/5/2/score.svg \
+	site/content/scores/bach/5/5/3/score.svg \
+	site/content/scores/mozart/107/1/1/score.svg \
+	site/content/scores/mozart/107/1/2/score.svg \
+	site/content/scores/mozart/107/1/3/score.svg
 
 incipits: \
-	site/content/scores/kv-107-i/incipit.svg \
-	site/content/scores/kv-107-ii/incipit.svg \
-	site/content/scores/kv-107-iii/incipit.svg \
-	site/content/scores/w-a1/incipit.svg \
-	site/content/scores/w-a2/incipit.svg \
-	site/content/scores/w-a3/incipit.svg \
-	site/content/scores/w-a4/incipit.svg \
-	site/content/scores/w-a5/incipit.svg \
-	site/content/scores/w-a6/incipit.svg \
-	site/content/scores/w-a7/incipit.svg
+	site/content/scores/bach/17/1/incipit.svg \
+	site/content/scores/bach/5/1/incipit.svg \
+	site/content/scores/bach/5/2/incipit.svg \
+	site/content/scores/bach/5/3/incipit.svg \
+	site/content/scores/bach/5/4/incipit.svg \
+	site/content/scores/bach/5/5/incipit.svg \
+	site/content/scores/bach/5/6/incipit.svg \
+	site/content/scores/mozart/107/1/incipit.svg \
+	site/content/scores/mozart/107/2/incipit.svg \
+	site/content/scores/mozart/107/3/incipit.svg
 
 .PHONY: all diagrams schemata scores incipits
 
