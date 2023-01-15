@@ -6,4 +6,5 @@ weight = 1
 list = "local"
 render = "never"
 +++
-London, 1766
+These engravings are based on the edition published by Welcker (London, 1766,
+[IMSLP 284471](https://imslp.org/wiki/Special:ReverseLookup/284471)).
