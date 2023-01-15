@@ -8,9 +8,9 @@
     <div class="pb-2">
       <h6>Movements</h6>
       <ol class="list-unstyled">
-        {{ range $index, $movement := .Params.movements }}
+        {{ range $index, $_ := .Sections }}
           <li>
-            <a href="#{{ add 1 $index }}-{{ $movement | urlize }}">{{ $movement }}</a>
+            <a href="#{{ add 1 $index }}-{{ .Title | urlize }}">{{ .Title }}</a>
           </li>
         {{ end }}
       </ol>
@@ -44,7 +44,7 @@
   </div>
   {{ range $index, $section := .Sections }}
     <div class="narrow mx-auto py-2">
-      <h4 id="{{ printf "%d-%s" ( add 1 $index ) ( urlize .Title ) }}">{{ .Title }}</h4>
+      <h4 id="{{ add 1 $index }}-{{ .Title | urlize }}">{{ .Title }}</h4>
       {{ .Content }}
       {{ with .Resources.GetMatch "overview.html" }}
         <div class="mx-auto w-75">
