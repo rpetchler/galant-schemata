@@ -32,6 +32,8 @@ schemata: \
 scores: \
 	site/content/scores/bach/17/1/1/score.svg \
 	site/content/scores/bach/17/1/2/score.svg \
+	site/content/scores/bach/17/3/1/score.svg \
+	site/content/scores/bach/17/3/2/score.svg \
 	site/content/scores/bach/5/1/1/score.svg \
 	site/content/scores/bach/5/1/2/score.svg \
 	site/content/scores/bach/5/2/1/score.svg \
