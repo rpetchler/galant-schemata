@@ -34,6 +34,8 @@ scores: \
 	site/content/scores/bach/17/1/2/score.svg \
 	site/content/scores/bach/17/3/1/score.svg \
 	site/content/scores/bach/17/3/2/score.svg \
+	site/content/scores/bach/17/4/1/score.svg \
+	site/content/scores/bach/17/4/2/score.svg \
 	site/content/scores/bach/5/1/1/score.svg \
 	site/content/scores/bach/5/1/2/score.svg \
 	site/content/scores/bach/5/2/1/score.svg \
@@ -52,6 +54,7 @@ scores: \
 
 incipits: \
 	site/content/scores/bach/17/1/incipit.svg \
+	site/content/scores/bach/17/4/incipit.svg \
 	site/content/scores/bach/5/1/incipit.svg \
 	site/content/scores/bach/5/2/incipit.svg \
 	site/content/scores/bach/5/3/incipit.svg \
